@@ -1,0 +1,38 @@
+project: 
+  type: manuscript
+
+manuscript:
+  article: manuscript.qmd
+  meca-bundle: "bundle.zip"
+  code-links: [binder, repo]
+  notebooks:
+    - notebook: rcode.qmd
+      title: "R code from PRACTICE sections"
+    - notebook: full_simulation.qmd
+      title: "Run simulation for case study"
+      
+format:
+  html:
+    toc: true
+    comments:
+      hypothesis: false
+    theme: pulse
+    citation:
+      type: article-journal
+      container-title: "Advances in Methods and Practices in Psychological Science"
+      doi: "10.1177/25152459241287132"
+      volume: 7
+      issue: 4
+      issued: 2024
+  jats: default
+  apaquarto-pdf:
+    documentmode: man
+    a4paper: true
+    keep-tex: true
+  apaquarto-docx:
+    a4paper: true
+
+notebook-links: global
+
+execute:
+  freeze: true

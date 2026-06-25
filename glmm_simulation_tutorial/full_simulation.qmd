@@ -1,0 +1,127 @@
+---
+title: "Run the full simulation for the case study example"
+execute: 
+  eval: true
+---
+
+::: {.callout-note}
+This Notebook was used to run the full simulation for the case study discussed in the manuscript. The simulation takes more than 1 hour to run on a Mac Book Pro (13-inch, M1, 2020) with 16 GB memory.
+:::
+
+## Simulation functions
+
+```{r}
+#| echo: true
+simulate <- function(n_subjects = 40, n_items = 24, #just starting point
+  b_0 = 0.85,  # intercept: log-odds of agreeing in the reference cell (No-XAI, AI incorrect)
+  b_ai = 1.5,  # effect of AI being correct
+  b_concise = 0.0, # Concise vs No-XAI (explanation-format main effect)
+  b_irac = 0.0,      # IRAC vs No-XAI
+  b_expl = 0.0,      # effect of explanation correctness
+  b_ai_expl = 0.0,   # ai_correct x expl_correct (alignment effect)
+  sd_u0s = 0.5, sd_u0i = 0.5, ...) # moderate amount of variation between subjects and between items ( these are somehow my softest assumption)
+  {
+    require(dplyr)
+    require(faux)
+    # simulate design
+    dat <- add_random(subject = n_subjects, item = n_items) %>%
+      # 3-level condition, within-subject, equal split
+      add_within("subject", condition = c("noxai", "concise", "irac")) %>%
+      # AI advice correct/incorrect, 70/30 per your design
+      mutate(ai_correct = rbinom(n(), 1, prob = 0.7)) %>%
+      # explanation correctness: only defined when an explanation is shown
+      mutate(expl_correct = if_else(condition == "noxai", 0L,
+                                      rbinom(n(), 1L, prob = 0.5))) %>% # an explanation is shown, it's 50/50 correct vs incorrect. --> confirmed after annotation 
+      mutate(concise = if_else(condition == "concise", 1L, 0L),
+       irac    = if_else(condition == "irac",    1L, 0L)) %>%
+      # add random effects
+      add_ranef("subject", u0s = sd_u0s) %>%
+      add_ranef("item", u0i = sd_u0i) %>%
+      # compute dependent variable
+      mutate(
+        linpred = 
+          b_0 + u0s + u0i+
+          b_ai * ai_correct +
+          b_concise * concise +
+          b_irac * irac +
+          b_expl * expl_correct +
+          b_ai_expl * ai_correct * expl_correct) %>%
+      mutate(y_prob = plogis(linpred)) %>%
+      mutate(y_bin = rbinom(n = n(), size = 1, prob = y_prob))
+    dat
+  }
+```
+# added by safeyah
+```{r}
+library(lme4)
+
+# one fake dataset
+dat <- simulate(n_subjects = 40, n_items = 24)
+
+# fit the analysis GLMM
+m <- glmer(
+  y_bin ~ ai_correct + concise + irac + expl_correct +
+          ai_correct:expl_correct +
+          (1 | subject) + (1 | item),
+  data = dat,
+  family = binomial
+)
+
+summary(m)
+```
+
+```{r}
+#| echo: true
+sim_and_analyse <- function(
+  formula_chr = "y_bin ~ ai_correct + concise + irac + expl_correct + ai_correct:expl_correct + (1|subject) + (1|item)",
+  contrasts = c(
+    # Irac vs noxai
+    "b4 = b1", "b2 = b1", "b9 = b6", "b7 = b6", 
+    # concise vs noxai
+    "b5 = b1", "b3 = b1", "b10 = b6", "b8 = b6"), ...){ # Not sure how to map it to my research questions
+  require(lme4)
+  require(marginaleffects)
+  require(tidyr)
+  # simulate data
+  dat <- simulate(...)
+  # fit model
+  model <- glmer(as.formula(formula_chr), data = dat, family = "binomial")
+  #compute contrasts
+  
+  # expand_grid(ai_correct = 0:1, expl_correct = 0:1, concise = 0:1, irac = 0:1)
+  contr_df <- expand_grid(ai_correct = 0:1, expl_correct = 0:1, concise = 0:1, irac = 0:1) %>% 
+    filter(!(concise == 1 & irac == 1)) %>%    # not both formats in the same row
+    filter(!(concise == 0 & irac == 0 & expl_correct == 1))     # No-XAI has no explanation
+  predictions(model, newdata = contr_df, type = "response", re.form = NA) %>%
+    hypotheses(hypothesis = contrasts, equivalence = c(0, 0)) %>%
+    data.frame()
+}
+```
+
+## Run simulation
+
+```{r}
+#| echo: true
+library(tidyverse)
+library(future)
+library(furrr)
+  
+plan("multisession", workers = 6)
+set.seed(2)
+  
+sim_result <- crossing(
+  rep = 1:100,
+  n_subjects = c(20, 30, 40, 50), 
+  n_items = c(12, 18, 24, 30)
+) %>%
+  mutate(res = future_pmap(., sim_and_analyse, 
+    .options = furrr_options(seed = TRUE))) %>%
+  unnest(col = res)
+```
+## Save results file to be used in the manuscript
+
+```{r}
+#| echo: true
+saveRDS(sim_result, file = "results.rds")
+```
+

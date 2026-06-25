@@ -1,0 +1,89 @@
+---
+title: "Run the full simulation for the case study example"
+execute: 
+  eval: true
+---
+
+::: {.callout-note}
+This Notebook was used to run the full simulation for the case study discussed in the manuscript. The simulation takes more than 1 hour to run on a Mac Book Pro (13-inch, M1, 2020) with 16 GB memory.
+:::
+
+## Simulation functions
+
+```{r}
+#| echo: true
+simulate <- function(n_subjects = 100, n_items = 50,
+  b_0 = 0.847, b_e = 1.350, b_a = -1.253, b_c = 2.603,
+  b_ea = 0.790, b_ec = -1.393,
+  sd_u0s = 0.5, sd_u0i = 0.5, ...){
+  require(dplyr)
+  require(faux)
+  # simulate design
+  dat <- add_random(subject = n_subjects, item = n_items) %>%
+    add_between("subject", expert = c(1, 0), .prob = c(0.25, 0.75)) %>%
+    mutate(advice_present = rbinom(n(), 1, prob = 2/3)) %>%
+    mutate(advice_correct = if_else(advice_present == 1L, 
+                                    rbinom(n(), 1L, prob = 0.8), 0L)) %>%
+    # add random effects
+    add_ranef("subject", u0s = sd_u0s) %>%
+    add_ranef("item", u0i = sd_u0i) %>%
+    # compute dependent variable
+    mutate(linpred = b_0 + u0i + u0s +
+        b_e * expert + b_a * advice_present + b_c * advice_correct +
+        b_ea * expert * advice_present + b_ec * expert * advice_correct) %>%
+    mutate(y_prob = plogis(linpred)) %>%
+    mutate(y_bin = rbinom(n = n(), size = 1, prob = y_prob))
+  dat
+}
+```
+
+```{r}
+#| echo: true
+sim_and_analyse <- function(
+  formula_chr = "y_bin ~ 1 + expert + advice_present + advice_correct + 
+    expert:advice_present + expert:advice_correct + (1|subject) + (1|item)",
+  contrasts = c("b8 = b2", "b2 = b6", "b7 = b1", "b1 = b5"), ...){
+  require(lme4)
+  require(marginaleffects)
+  require(tidyr)
+  # simulate data
+  dat <- simulate(...)
+  # fit model
+  model <- glmer(as.formula(formula_chr), data = dat, family = "binomial")
+  # compute contrasts
+  contr_df <- expand_grid(advice_present = 0:1, advice_correct = 0:1,
+    expert = 0:1)
+  predictions(model, newdata = contr_df, type = "response", re.form = NA) %>%
+    hypotheses(hypothesis = contrasts, equivalence = c(0, 0)) %>%
+    data.frame()
+}
+```
+
+## Run simulation
+
+```{r}
+#| echo: true
+library(tidyverse)
+library(future)
+library(furrr)
+  
+plan("multisession", workers = 6)
+set.seed(2)
+  
+sim_result <- crossing(
+  rep = 1:500,
+  n_subjects = c(100, 150, 200, 250),
+  n_items = c(10, 30, 50, 70)
+) %>%
+  mutate(res = future_pmap(., sim_and_analyse, 
+    .options = furrr_options(seed = TRUE))) %>%
+  unnest(col = res)
+```
+
+## Save results file to be used in the manuscript
+
+```{r}
+#| echo: true
+saveRDS(sim_result, file = "results.rds")
+```
+
