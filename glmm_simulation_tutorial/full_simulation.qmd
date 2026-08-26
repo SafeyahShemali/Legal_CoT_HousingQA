@@ -7,18 +7,47 @@ execute:
 ::: {.callout-note}
 This Notebook was used to run the full simulation for the case study discussed in the manuscript. The simulation takes more than 1 hour to run on a Mac Book Pro (13-inch, M1, 2020) with 16 GB memory.
 :::
+```{r}
+# 1. Sam's midpoint probabilities, by cell (b-number)
+p <- c(
+  b1  = 0.45,   # No-XAI,  AI incorrect
+  b6  = 0.675,  # No-XAI,  AI correct
+  b3  = 0.625,  # Concise, AI incorrect, expl incorrect
+  b5  = 0.475,  # Concise, AI incorrect, expl correct
+  b8  = 0.575,  # Concise, AI correct,   expl incorrect
+  b10 = 0.85,   # Concise, AI correct,   expl correct
+  b2  = 0.675,  # IRAC,    AI incorrect, expl incorrect
+  b4  = 0.525,  # IRAC,    AI incorrect, expl correct
+  b7  = 0.625,  # IRAC,    AI correct,   expl incorrect
+  b9  = 0.90    # IRAC,    AI correct,   expl correct
+)
 
+# 2. Convert every probability to log-odds
+lo <- qlogis(p)        # qlogis(p) = log(p / (1 - p))
+
+# 3. Each beta is a difference of log-odds between cells
+b_0       <- lo["b1"]                                   # reference cell
+b_ai      <- lo["b6"] - lo["b1"]                        # adding AI-correct, holding else at reference
+b_concise <- lo["b3"] - lo["b1"]                        # Concise vs No-XAI (at AI-incorrect, expl-incorrect)
+b_irac    <- lo["b2"] - lo["b1"]                        # IRAC vs No-XAI
+b_expl    <- lo["b5"] - lo["b3"]                        # expl correct vs incorrect (Concise, AI-incorrect)
+b_ai_expl <- (lo["b10"] - lo["b8"]) - (lo["b5"] - lo["b3"])  # interaction
+
+# 4. See them
+round(c(b_0 = b_0, b_ai = b_ai, b_concise = b_concise,
+        b_irac = b_irac, b_expl = b_expl, b_ai_expl = b_ai_expl), 3)
+```
 ## Simulation functions
 
 ```{r}
 #| echo: true
 simulate <- function(n_subjects = 40, n_items = 24, #just starting point
-  b_0 = 0.85,  # intercept: log-odds of agreeing in the reference cell (No-XAI, AI incorrect)
-  b_ai = 1.5,  # effect of AI being correct
-  b_concise = 0.0, # Concise vs No-XAI (explanation-format main effect)
-  b_irac = 0.0,      # IRAC vs No-XAI
-  b_expl = 0.0,      # effect of explanation correctness
-  b_ai_expl = 0.0,   # ai_correct x expl_correct (alignment effect)
+  b_0 = -0.201, #0.85  # intercept: log-odds of agreeing in the reference cell (No-XAI, AI incorrect)
+  b_ai = 0.932, #1.5 # effect of AI being correct
+  b_concise = 0.711, #0.0 # Concise vs No-XAI (explanation-format main effect)
+  b_irac = 0.932,  #0.0    # IRAC vs No-XAI
+  b_expl = -0.611,  #0.0    # effect of explanation correctness
+  b_ai_expl = 2.043, #0.0  # ai_correct x expl_correct (alignment effect)
   sd_u0s = 0.5, sd_u0i = 0.5, ...) # moderate amount of variation between subjects and between items ( these are somehow my softest assumption)
   {
     require(dplyr)
@@ -117,6 +146,12 @@ sim_result <- crossing(
   mutate(res = future_pmap(., sim_and_analyse, 
     .options = furrr_options(seed = TRUE))) %>%
   unnest(col = res)
+```
+```{r}
+sim_result %>%
+  group_by(n_subjects, n_items, hypothesis) %>%
+  summarise(power = mean(p.value < 0.05), .groups = "drop") %>%
+  arrange(hypothesis, n_subjects, n_items)
 ```
 ## Save results file to be used in the manuscript
 
