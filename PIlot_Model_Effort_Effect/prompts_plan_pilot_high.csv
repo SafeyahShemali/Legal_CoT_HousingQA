@@ -1,0 +1,281 @@
+call_id,idx,question,state,question_group,answer_ground_truth,shorter_note,prompt_type,prompt
+2378__no_xai,2378,Are damages available to a tenant who is unlawfully evicted?,Louisiana,134,Yes,"""Unlawfully"" means via self-help (e.g., changing locks). ""Damages"" include monetary relief under the eviction procedure and lease articles of the Louisiana Civil Code and exclude general delictual relief. ",no_xai,"Answer the following Yes/No question about housing law in Louisiana, based on the law as it stood in 2021.
+
+Question: Are damages available to a tenant who is unlawfully evicted?
+
+Clarification note: ""Unlawfully"" means via self-help (e.g., changing locks). ""Damages"" include monetary relief under the eviction procedure and lease articles of the Louisiana Civil Code and exclude general delictual relief.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+2294__no_xai,2294,Are damages available to a tenant who is unlawfully evicted?,California,134,Yes,"""Unlawfully"" means via self-help (e.g., changing locks). ""Damages"" include monetary relief under California state landlord-tenant and eviction statutes and exclude general tort/contract damages. ",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Are damages available to a tenant who is unlawfully evicted?
+
+Clarification note: ""Unlawfully"" means via self-help (e.g., changing locks). ""Damages"" include monetary relief under California state landlord-tenant and eviction statutes and exclude general tort/contract damages.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+4533__no_xai,4533,Are eviction cases first heard in magistrates court?,Texas,76,No,"""Eviction cases"" means residential eviction actions prior to appeal/trial de novo. ""Magistrates court"" means a Texas state court called Magistrate's Court, not merely a court with a magistrate.",no_xai,"Answer the following Yes/No question about housing law in Texas, based on the law as it stood in 2021.
+
+Question: Are eviction cases first heard in magistrates court?
+
+Clarification note: ""Eviction cases"" means residential eviction actions prior to appeal/trial de novo. ""Magistrates court"" means a Texas state court called Magistrate's Court, not merely a court with a magistrate.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+4530__no_xai,4530,Are eviction cases first heard in state court?,Texas,140,No,"""Eviction cases"" means residential eviction actions prior to appeal/trial de novo. ""State court"" means any Texas constitutional or statutory court forming part of the state judiciary.",no_xai,"Answer the following Yes/No question about housing law in Texas, based on the law as it stood in 2021.
+
+Question: Are eviction cases first heard in state court?
+
+Clarification note: ""Eviction cases"" means residential eviction actions prior to appeal/trial de novo. ""State court"" means any Texas constitutional or statutory court forming part of the state judiciary.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1452__no_xai,1452,Can a landlord evict a tenant for commiting substantial damage to the property?,New York,193,No,"Read as whether a statute applicable in all or part of New York State explicitly allows a private landlord to evict a unsubsidized, unregulated residential tenant with a written lease for substantial damage to the property.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for commiting substantial damage to the property?
+
+Clarification note: Read as whether a statute applicable in all or part of New York State explicitly allows a private landlord to evict a unsubsidized, unregulated residential tenant with a written lease for substantial damage to the property.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1453__no_xai,1453,"Can a landlord evict a tenant for committing domestic violence? This includes when the a tenant can be evicted if they are a domestic violence offender, or if they endanger another tenant and are subject to a protective order or criminal complaint for domestic abuse.",New York,202,No,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Disregard exclusion orders in family or criminal proceedings. Answer under New York State statute only.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for committing domestic violence? This includes when the a tenant can be evicted if they are a domestic violence offender, or if they endanger another tenant and are subject to a protective order or criminal complaint for domestic abuse.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Disregard exclusion orders in family or criminal proceedings. Answer under New York State statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1460__no_xai,1460,"Can a landlord evict a tenant for criminal activity? This includes: criminal or illegal activity generally; committing a specific crime or illegal act; the use, possession, or sale of controlled substances; an unlawful action causing serious physical harm to another person; or criminal nuisance.",New York,109,Yes,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Disregard proceedings by a co-tenant or public official. Answer under New York State statute only.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for criminal activity? This includes: criminal or illegal activity generally; committing a specific crime or illegal act; the use, possession, or sale of controlled substances; an unlawful action causing serious physical harm to another person; or criminal nuisance.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Disregard proceedings by a co-tenant or public official. Answer under New York State statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+912__no_xai,912,"Can a landlord evict a tenant for endangering another person? This includes instances when the law allows for eviction of a tenant if: their behavior or the behavior of members of their family adversely affects the health or safety of other tenants, or the landlord or their representatives; the tenant or a guest are a perpetrator of violence; or the presence of a domestic violence offender at the tenant's premises results in violent disturbances that pose a threat to the safety of other residents.",California,190,No,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under California state statute only. Assume the domestic violence offender is not trespassing. ",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for endangering another person? This includes instances when the law allows for eviction of a tenant if: their behavior or the behavior of members of their family adversely affects the health or safety of other tenants, or the landlord or their representatives; the tenant or a guest are a perpetrator of violence; or the presence of a domestic violence offender at the tenant's premises results in violent disturbances that pose a threat to the safety of other residents.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under California state statute only. Assume the domestic violence offender is not trespassing.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1007__no_xai,1007,"Can a landlord evict a tenant for endangering another person? This includes instances when the law allows for eviction of a tenant if: their behavior or the behavior of members of their family adversely affects the health or safety of other tenants, or the landlord or their representatives; the tenant or a guest are a perpetrator of violence; or the presence of a domestic violence offender at the tenant's premises results in violent disturbances that pose a threat to the safety of other residents.",Florida,190,No,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Florida state statute only. Assume the domestic violence offender is not trespassing. ",no_xai,"Answer the following Yes/No question about housing law in Florida, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for endangering another person? This includes instances when the law allows for eviction of a tenant if: their behavior or the behavior of members of their family adversely affects the health or safety of other tenants, or the landlord or their representatives; the tenant or a guest are a perpetrator of violence; or the presence of a domestic violence offender at the tenant's premises results in violent disturbances that pose a threat to the safety of other residents.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Florida state statute only. Assume the domestic violence offender is not trespassing.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1450__no_xai,1450,"Can a landlord evict a tenant for material breach? The law should explicitly mention ""material breach"", or allow for eviction if there is a substantial violation of the lease, material noncompliance with the lease, or when the breach is one that materially affects health, safety or welfare",New York,181,No,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. ""Law"" means any statute applicable in all or part of New York State.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for material breach? The law should explicitly mention ""material breach"", or allow for eviction if there is a substantial violation of the lease, material noncompliance with the lease, or when the breach is one that materially affects health, safety or welfare
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. ""Law"" means any statute applicable in all or part of New York State.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1449__no_xai,1449,Can a landlord evict a tenant for material falsification on the rental application?,New York,71,No,"Read as whether a New York State statute explicitly allows a private landlord to evict a unsubsidized, unregulated residential tenant with a written lease for material falsification on the rental application.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for material falsification on the rental application?
+
+Clarification note: Read as whether a New York State statute explicitly allows a private landlord to evict a unsubsidized, unregulated residential tenant with a written lease for material falsification on the rental application.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1001__no_xai,1001,"Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.",Florida,162,Yes,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Florida state statute only.",no_xai,"Answer the following Yes/No question about housing law in Florida, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Florida state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1096__no_xai,1096,"Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.",Illinois,162,No,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Illinois state statute only.",no_xai,"Answer the following Yes/No question about housing law in Illinois, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Illinois state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1704__no_xai,1704,"Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.",Texas,162,Yes,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Texas state statute. Disregard nuisance abatement proceedings by public officials.",no_xai,"Answer the following Yes/No question about housing law in Texas, based on the law as it stood in 2021.
+
+Question: Can a landlord evict a tenant for nuisance activity? This includes: maintaining, committing, or permitting the maintenance or commission of a nuisance; conduct that disturbs a neighbor's or another tenant's peaceful enjoyment of their premises; causing a serious health hazard to exist on the property; or for misuse of property.
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease. Read ""includes"" as ""includes only"". Answer under Texas state statute. Disregard nuisance abatement proceedings by public officials.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+7384__no_xai,7384,Can a tenant request that the issuance of a writ be stayed so that they have more time to pay rent?,New York,214,No,"""Writ"" means warrant of eviction in a nonpayment proceeding. Answer under statutes applicable in all or part of New York State.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Can a tenant request that the issuance of a writ be stayed so that they have more time to pay rent?
+
+Clarification note: ""Writ"" means warrant of eviction in a nonpayment proceeding. Answer under statutes applicable in all or part of New York State.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+723__no_xai,723,Does state/territory eviction law explicitly regulate residential landlords generally?,New York,197,Yes,"Read as whether every New York State eviction statute explicitly applies to all residential landlords, not just certain kinds. ",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Does state/territory eviction law explicitly regulate residential landlords generally?
+
+Clarification note: Read as whether every New York State eviction statute explicitly applies to all residential landlords, not just certain kinds.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+151__no_xai,151,Does the law directly regulate the amount a landlord can charge as a fee for late rent?,New York,129,Yes,"""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease containing a late fee provision. ""Directly"" means specifically, not via general contract principles or timing rules.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Does the law directly regulate the amount a landlord can charge as a fee for late rent?
+
+Clarification note: ""Landlord"" means private landlord. ""Tenant"" means unsubsidized, unregulated residential tenant with a written lease containing a late fee provision. ""Directly"" means specifically, not via general contract principles or timing rules.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+9223__no_xai,9223,Does the law regulate circumstances in which eviction records may be expunged?,California,10,No,"""Expunged"" means, inter alia, sealed, masked, restricted from public access, or permanently destroyed. Answer under California state statute only.",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Does the law regulate circumstances in which eviction records may be expunged?
+
+Clarification note: ""Expunged"" means, inter alia, sealed, masked, restricted from public access, or permanently destroyed. Answer under California state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+9231__no_xai,9231,Does the law regulate circumstances in which eviction records may be expunged?,Illinois,10,No,"""Expunged"" means, inter alia, sealed, masked, restricted from public access, or permanently destroyed. Answer under Illinois state statute only.",no_xai,"Answer the following Yes/No question about housing law in Illinois, based on the law as it stood in 2021.
+
+Question: Does the law regulate circumstances in which eviction records may be expunged?
+
+Clarification note: ""Expunged"" means, inter alia, sealed, masked, restricted from public access, or permanently destroyed. Answer under Illinois state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+3590__no_xai,3590,Does the law require landlords to provide a reason for eviction when giving tenants notice to vacate the property?,Florida,122,Yes,"""Landlords"" means private landlords. ""Tenants"" means unsubsidized, unregulated tenants with any type of residential lease. ""Eviction"" means any deliberate lease termination, fault or no fault. Answer under Florida state statute only.",no_xai,"Answer the following Yes/No question about housing law in Florida, based on the law as it stood in 2021.
+
+Question: Does the law require landlords to provide a reason for eviction when giving tenants notice to vacate the property?
+
+Clarification note: ""Landlords"" means private landlords. ""Tenants"" means unsubsidized, unregulated tenants with any type of residential lease. ""Eviction"" means any deliberate lease termination, fault or no fault. Answer under Florida state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+158__no_xai,158,Does the law require that landlords have a just cause to terminate a tenancy at the end of a lease term?,California,115,Yes,"""Landlords"" means corporate owners of multi-unit buildings constructed more than 15 years ago. Read ""lease term"" as ""fixed lease term under a written lease"" Assume the tenant's continuous occupancy for over 24 months. Answer under California state statute only.",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Does the law require that landlords have a just cause to terminate a tenancy at the end of a lease term?
+
+Clarification note: ""Landlords"" means corporate owners of multi-unit buildings constructed more than 15 years ago. Read ""lease term"" as ""fixed lease term under a written lease"" Assume the tenant's continuous occupancy for over 24 months. Answer under California state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+168__no_xai,168,Does the law specify a minimum number of days a tenant can be late on rent before the landlord can file an eviction action for nonpayment?,California,23,Yes,Disregard any pay-or-quit notice requirement. Answer under California state statute only. Assume no relevant lease terms or emergency measures.,no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Does the law specify a minimum number of days a tenant can be late on rent before the landlord can file an eviction action for nonpayment?
+
+Clarification note: Disregard any pay-or-quit notice requirement. Answer under California state statute only. Assume no relevant lease terms or emergency measures.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+193__no_xai,193,Does the law specify a minimum number of days a tenant can be late on rent before the landlord can file an eviction action for nonpayment?,New York,23,Yes,Disregard any rent demand/notice requirement. Answer under New York State statute only. Assume no relevant lease terms.,no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Does the law specify a minimum number of days a tenant can be late on rent before the landlord can file an eviction action for nonpayment?
+
+Clarification note: Disregard any rent demand/notice requirement. Answer under New York State statute only. Assume no relevant lease terms.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+3474__no_xai,3474,"For tenants residing in properties that go into foreclosure, does the law require a continuation of the landlord's lease obligations?",New York,7,No,"""Law"" means New York State law. ""Lease"" means unsubsidized, unregulated, bona fide written lease predating the foreclosure action. Read ""continuation"" as ""continuation by the property acquirer via foreclosure"". ",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: For tenants residing in properties that go into foreclosure, does the law require a continuation of the landlord's lease obligations?
+
+Clarification note: ""Law"" means New York State law. ""Lease"" means unsubsidized, unregulated, bona fide written lease predating the foreclosure action. Read ""continuation"" as ""continuation by the property acquirer via foreclosure"".
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+3475__no_xai,3475,"For tenants residing in properties that go into foreclosure, does the law restrict the landlord's ability to evict a tenant without just cause?",New York,34,No,"""Law"" means New York State law. ""Landlord"" means property acquirer via foreclosure. Assume no rent regulation and a bona fide lease predating the foreclosure action.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: For tenants residing in properties that go into foreclosure, does the law restrict the landlord's ability to evict a tenant without just cause?
+
+Clarification note: ""Law"" means New York State law. ""Landlord"" means property acquirer via foreclosure. Assume no rent regulation and a bona fide lease predating the foreclosure action.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+6662__no_xai,6662,"In an eviction action, can a tenant rebut/raise the defense that the landlord refused a voucher?",California,36,No,"""Voucher"" means the tenant's government rent voucher (e.g., under Section 8). ""Refused"" means rejected as rent payment. ""Defense"" means defense under any California state statute, not merely eviction statutes.",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: In an eviction action, can a tenant rebut/raise the defense that the landlord refused a voucher?
+
+Clarification note: ""Voucher"" means the tenant's government rent voucher (e.g., under Section 8). ""Refused"" means rejected as rent payment. ""Defense"" means defense under any California state statute, not merely eviction statutes.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+7066__no_xai,7066,"In an eviction action, can a tenant use landlord noncompliance with a statutory duty as a rebuttal/defense?",New York,46,No,"""Eviction action"" means nonpayment proceeding. Read ""duty"" as ""duty of habitability"". Read ""rebuttal/defense"" as ""rebuttal/defense in the nonpayment proceeding"". Answer under New York State law only.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: In an eviction action, can a tenant use landlord noncompliance with a statutory duty as a rebuttal/defense?
+
+Clarification note: ""Eviction action"" means nonpayment proceeding. Read ""duty"" as ""duty of habitability"". Read ""rebuttal/defense"" as ""rebuttal/defense in the nonpayment proceeding"". Answer under New York State law only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+335__no_xai,335,Is all documentation related to the eviction action made inaccessible?,New York,206,Yes,"""Documentation"" means information of any kind. Read ""the eviction"" as ""any kind of eviction"" and ""made"" as ""automatically made"". ""Inaccessible"" means unavailable for public inspection. Answer under New York State statute only. ",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Is all documentation related to the eviction action made inaccessible?
+
+Clarification note: ""Documentation"" means information of any kind. Read ""the eviction"" as ""any kind of eviction"" and ""made"" as ""automatically made"". ""Inaccessible"" means unavailable for public inspection. Answer under New York State statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+9068__no_xai,9068,Is an officer of the court an individual empowered by law to execute a writ of eviction?,New York,103,No,"""Officer of the court"" means a specific court enforcement officer (e.g., marshal), not a general LEO. ""Law"" means statute applicable in all or part of New York State. ""Writ of eviction"" means warrant of eviction. ",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Is an officer of the court an individual empowered by law to execute a writ of eviction?
+
+Clarification note: ""Officer of the court"" means a specific court enforcement officer (e.g., marshal), not a general LEO. ""Law"" means statute applicable in all or part of New York State. ""Writ of eviction"" means warrant of eviction.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+2293__no_xai,2293,Is injunctive relief available to a tenant who is unlawfully evicted?,California,21,Yes,"""Unlawfully"" means via self-help (e.g., changing locks). ""Injunctive relief"" means a court order explicitly authorized by statute restoring the tenant to quiet possession.",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Is injunctive relief available to a tenant who is unlawfully evicted?
+
+Clarification note: ""Unlawfully"" means via self-help (e.g., changing locks). ""Injunctive relief"" means a court order explicitly authorized by statute restoring the tenant to quiet possession.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+6142__no_xai,6142,Is it required that the evictions summons served to tenants describe what the tenant must do? This includes: a direction that the defendant file a pleading in response to the complaint; a direction that the defendant respond either orally or in writing; instructions on what a tenant had to do to respond to the summons; a requirement that the defendant appear in court; or a requirement that the defendant file an appearance.,Illinois,133,Yes,"""Eviction"" means a residential forcible entry and detainer action. ""Required"" means required by Illinois state statute, court rule, or mandatory form, not a local rule. Read ""includes"" as ""includes only"".",no_xai,"Answer the following Yes/No question about housing law in Illinois, based on the law as it stood in 2021.
+
+Question: Is it required that the evictions summons served to tenants describe what the tenant must do? This includes: a direction that the defendant file a pleading in response to the complaint; a direction that the defendant respond either orally or in writing; instructions on what a tenant had to do to respond to the summons; a requirement that the defendant appear in court; or a requirement that the defendant file an appearance.
+
+Clarification note: ""Eviction"" means a residential forcible entry and detainer action. ""Required"" means required by Illinois state statute, court rule, or mandatory form, not a local rule. Read ""includes"" as ""includes only"".
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+6052__no_xai,6052,Is it required that the evictions summons served to tenants describe what the tenant must do? This includes: a direction that the defendant file a pleading in response to the complaint; a direction that the defendant respond either orally or in writing; instructions on what a tenant had to do to respond to the summons; a requirement that the defendant appear in court; or a requirement that the defendant file an appearance.,California,133,Yes,"""Eviction"" means a residential unlawful detainer action. ""Required"" means required by California state statute, court rule, or mandatory form, not a local rule. Read ""includes"" as ""includes only"".",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Is it required that the evictions summons served to tenants describe what the tenant must do? This includes: a direction that the defendant file a pleading in response to the complaint; a direction that the defendant respond either orally or in writing; instructions on what a tenant had to do to respond to the summons; a requirement that the defendant appear in court; or a requirement that the defendant file an appearance.
+
+Clarification note: ""Eviction"" means a residential unlawful detainer action. ""Required"" means required by California state statute, court rule, or mandatory form, not a local rule. Read ""includes"" as ""includes only"".
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+479__no_xai,479,Is it specified whether a tenant forfeits the right to an eviction hearing by failing to respond to the court summons?,California,18,Yes,Read whether California's unlawful detainer statutes speak to whether a tenant's failure to respond to the summons yields a default judgment/entry.,no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Is it specified whether a tenant forfeits the right to an eviction hearing by failing to respond to the court summons?
+
+Clarification note: Read whether California's unlawful detainer statutes speak to whether a tenant's failure to respond to the summons yields a default judgment/entry.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+7696__no_xai,7696,Is the term 'Execution for possession' used to refer to the order from the court to the authorities to remove a tenant?,Florida,177,No,"Read ""used"" as ""verbatim used"". Answer under Florida state eviction statutes only. ",no_xai,"Answer the following Yes/No question about housing law in Florida, based on the law as it stood in 2021.
+
+Question: Is the term 'Execution for possession' used to refer to the order from the court to the authorities to remove a tenant?
+
+Clarification note: Read ""used"" as ""verbatim used"". Answer under Florida state eviction statutes only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+8458__no_xai,8458,Is the term 'Order of restitution' used to refer to the order from the court to the authorities to remove a tenant?,Texas,194,No,"Read ""used"" as ""verbatim used"". Answer under Texas state eviction statutes only. ",no_xai,"Answer the following Yes/No question about housing law in Texas, based on the law as it stood in 2021.
+
+Question: Is the term 'Order of restitution' used to refer to the order from the court to the authorities to remove a tenant?
+
+Clarification note: Read ""used"" as ""verbatim used"". Answer under Texas state eviction statutes only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1996__no_xai,1996,Must a landlord accept a tenant's attempt to cure for material breach?,Illinois,157,No,"Read ""tenant"" as ""residential tenant"", ""cure"" as ""cure per the landlord's properly served termination notice"", and ""breach"" as ""breach of the written lease other than nonpayment of rent"". ""Attempt"" means offer. Answer under Illinois state statute only. ",no_xai,"Answer the following Yes/No question about housing law in Illinois, based on the law as it stood in 2021.
+
+Question: Must a landlord accept a tenant's attempt to cure for material breach?
+
+Clarification note: Read ""tenant"" as ""residential tenant"", ""cure"" as ""cure per the landlord's properly served termination notice"", and ""breach"" as ""breach of the written lease other than nonpayment of rent"". ""Attempt"" means offer. Answer under Illinois state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+1918__no_xai,1918,Must a landlord accept a tenant's attempt to cure for nuisance activities?,California,61,No,"""Landlord"" means corporate owner of an apartment building over 15 years old. ""Attempt"" means offer. Read ""cure"" as ""cure per the landlord's termination notice"". Assume the tenant's continuous occupancy for over 12 months. Answer under California state statute only. ",no_xai,"Answer the following Yes/No question about housing law in California, based on the law as it stood in 2021.
+
+Question: Must a landlord accept a tenant's attempt to cure for nuisance activities?
+
+Clarification note: ""Landlord"" means corporate owner of an apartment building over 15 years old. ""Attempt"" means offer. Read ""cure"" as ""cure per the landlord's termination notice"". Assume the tenant's continuous occupancy for over 12 months. Answer under California state statute only.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+5469__no_xai,5469,Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Are certified mail and regular mail a permitted secondary methods of service for an eviction action?,Illinois,138,No,"Read ""service"" as ""initial service of the summons and complaint"". Read ""certified mail and regular mail"" as ""both certified mail and regular mail, whether alone, together, or with other service methods"". ""Primary method"" means personal delivery to the tenant. ",no_xai,"Answer the following Yes/No question about housing law in Illinois, based on the law as it stood in 2021.
+
+Question: Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Are certified mail and regular mail a permitted secondary methods of service for an eviction action?
+
+Clarification note: Read ""service"" as ""initial service of the summons and complaint"". Read ""certified mail and regular mail"" as ""both certified mail and regular mail, whether alone, together, or with other service methods"". ""Primary method"" means personal delivery to the tenant.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+5409__no_xai,5409,Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Are certified mail and regular mail a permitted secondary methods of service for an eviction action?,Florida,138,No,"Read ""service"" as ""initial service of the summons and complaint"" and ""certified mail and regular mail"" as ""both certified mail and regular mail, whether alone, together, or with other service methods"". ""Primary method"" means personal delivery to the tenant. ",no_xai,"Answer the following Yes/No question about housing law in Florida, based on the law as it stood in 2021.
+
+Question: Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Are certified mail and regular mail a permitted secondary methods of service for an eviction action?
+
+Clarification note: Read ""service"" as ""initial service of the summons and complaint"" and ""certified mail and regular mail"" as ""both certified mail and regular mail, whether alone, together, or with other service methods"". ""Primary method"" means personal delivery to the tenant.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
+5738__no_xai,5738,Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Is personal service to a suitable person other than defendant and mail a permitted secondary method of service for an eviction action?,New York,218,No,"Read ""service"" as ""initial service of the notice and petition"". ""Primary method"" means personal delivery to the tenant/defendant. Assume the service to the suitable person and the mailing occur together.",no_xai,"Answer the following Yes/No question about housing law in New York, based on the law as it stood in 2021.
+
+Question: Secondary methods of service are defined as those methods that may be used if the primary method is unsuccessful. Is personal service to a suitable person other than defendant and mail a permitted secondary method of service for an eviction action?
+
+Clarification note: Read ""service"" as ""initial service of the notice and petition"". ""Primary method"" means personal delivery to the tenant/defendant. Assume the service to the suitable person and the mailing occur together.
+
+Respond ONLY with a valid JSON object in exactly this format, and nothing else: {""answer"": ""<Yes or No>""}"
