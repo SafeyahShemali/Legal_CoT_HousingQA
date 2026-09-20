@@ -1,0 +1,72 @@
+model_id,item_id,answer_raw,answer_binary,ground_truth,correct,temperature,timestamp,raw_response,parse_ok
+gpt-4.1-2025-04-14,151,Yes,1,1,1,,2026-09-14T17:08:34,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,158,Yes,1,1,1,,2026-09-14T17:08:39,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,479,Yes,1,1,1,,2026-09-14T17:08:44,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,1001,Yes,1,1,1,,2026-09-14T17:08:50,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,1096,Likely no,0,1,0,,2026-09-14T17:08:55,"{""answer"": ""Likely no""}",True
+gpt-4.1-2025-04-14,1449,No,0,0,1,,2026-09-14T17:09:00,"{""answer"": ""No""}",True
+gpt-4.1-2025-04-14,1453,Likely no,0,0,1,,2026-09-14T17:09:06,"{""answer"": ""Likely no""}",True
+gpt-4.1-2025-04-14,1460,Likely no,0,0,1,,2026-09-14T17:09:13,"{""answer"": ""Likely no""}",True
+gpt-4.1-2025-04-14,2293,Yes,1,1,1,,2026-09-14T17:09:18,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,2294,Yes,1,1,1,,2026-09-14T17:09:23,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,3474,Yes,1,1,1,,2026-09-14T17:09:28,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,3475,Yes,1,1,1,,2026-09-14T17:09:33,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,3590,Yes,1,1,1,,2026-09-14T17:09:38,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,4533,No,0,0,1,,2026-09-14T17:09:42,"{""answer"": ""No""}",True
+gpt-4.1-2025-04-14,6052,Yes,1,1,1,,2026-09-14T17:09:47,"{""answer"": ""Yes""}",True
+gpt-4.1-2025-04-14,6142,No,0,1,0,,2026-09-14T17:09:52,"{""answer"": ""No""}",True
+gpt-4.1-2025-04-14,7696,No,0,0,1,,2026-09-14T17:09:57,"{""answer"": ""No""}",True
+gpt-4.1-2025-04-14,8458,No,0,0,1,,2026-09-14T17:10:02,"{""answer"": ""No""}",True
+claude-sonnet-5,151,Yes,1,1,1,,2026-09-14T17:21:14,"{""answer"": ""Yes""}",True
+claude-sonnet-5,158,No,0,1,0,,2026-09-14T17:21:20,"{""answer"": ""No""}",True
+claude-sonnet-5,479,Yes,1,1,1,,2026-09-14T17:21:25,"{""answer"": ""Yes""}",True
+claude-sonnet-5,1001,Yes,1,1,1,,2026-09-14T17:21:31,"{""answer"": ""Yes""}",True
+claude-sonnet-5,1096,No,0,1,0,,2026-09-14T17:21:36,"{""answer"": ""No""}",True
+claude-sonnet-5,1449,No,0,0,1,,2026-09-14T17:21:42,"{""answer"": ""No""}",True
+claude-sonnet-5,1453,Likely no,0,0,1,,2026-09-14T17:21:48,"{""answer"": ""Likely no""}",True
+claude-sonnet-5,1460,Yes,1,0,0,,2026-09-14T17:21:54,"{""answer"": ""Yes""}",True
+claude-sonnet-5,2293,Yes,1,1,1,,2026-09-14T17:21:59,"{""answer"": ""Yes""}",True
+claude-sonnet-5,2294,Yes,1,1,1,,2026-09-14T17:22:05,"{""answer"": ""Yes""}",True
+claude-sonnet-5,3474,Yes,1,1,1,,2026-09-14T17:22:11,"{""answer"": ""Yes""}",True
+claude-sonnet-5,3475,Yes,1,1,1,,2026-09-14T17:22:18,"{""answer"": ""Yes""}",True
+claude-sonnet-5,3590,Yes,1,1,1,,2026-09-14T17:22:26,"{""answer"": ""Yes""}",True
+claude-sonnet-5,4533,No,0,0,1,,2026-09-14T17:22:32,"{""answer"": ""No""}",True
+claude-sonnet-5,6052,Yes,1,1,1,,2026-09-14T17:22:37,"{""answer"": ""Yes""}",True
+claude-sonnet-5,6142,Yes,1,1,1,,2026-09-14T17:22:43,"{""answer"": ""Yes""}",True
+claude-sonnet-5,7696,No,0,0,1,,2026-09-14T17:18:41,"{""answer"": ""No""}",True
+claude-sonnet-5,8458,No,0,0,1,,2026-09-14T17:18:47,"{""answer"": ""No""}",True
+gemini-3.6-flash,151,Yes,1,1,1,,2026-09-14T17:18:53,"{""answer"": ""Yes""}",True
+gemini-3.6-flash,158,Yes,1,1,1,,2026-09-14T17:55:43,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,479,Yes,1,1,1,,2026-09-14T17:55:53,"{""answer"": ""Yes""}",True
+gemini-3.6-flash,1001,Yes,1,1,1,,2026-09-14T17:56:01,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,1096,No,0,1,0,,2026-09-14T17:56:10,"{""answer"": ""No""}",True
+gemini-3.6-flash,1449,No,0,0,1,,2026-09-14T17:56:21,"{
+  ""answer"": ""No""
+}",True
+gemini-3.6-flash,1453,Yes,1,0,0,,2026-09-14T17:56:31,"{""answer"": ""Yes""}",True
+gemini-3.6-flash,1460,No,0,0,1,,2026-09-14T17:56:44,"{""answer"": ""No""}",True
+gemini-3.6-flash,2293,Yes,1,1,1,,2026-09-14T17:56:54,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,2294,Yes,1,1,1,,2026-09-14T17:57:00,"{""answer"": ""Yes""}",True
+gemini-3.6-flash,3474,Yes,1,1,1,,2026-09-14T17:57:10,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,3475,Yes,1,1,1,,2026-09-14T17:57:19,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,3590,Yes,1,1,1,,2026-09-14T17:57:26,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,4533,No,0,0,1,,2026-09-14T17:57:33,"{""answer"": ""No""}",True
+gemini-3.6-flash,6052,Yes,1,1,1,,2026-09-14T17:57:42,"{""answer"": ""Yes""}",True
+gemini-3.6-flash,6142,Yes,1,1,1,,2026-09-14T17:57:55,"{
+  ""answer"": ""Yes""
+}",True
+gemini-3.6-flash,7696,No,0,0,1,,2026-09-14T17:58:01,"{""answer"": ""No""}",True
+gemini-3.6-flash,8458,No,0,0,1,,2026-09-14T17:58:10,"{""answer"": ""No""}",True
+

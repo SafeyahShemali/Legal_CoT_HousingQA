@@ -1,0 +1,5 @@
+"quadrant","C_AI","C_X","claude_no_xai","claude_concise","claude_structured","gemini_no_xai","gemini_concise","gemini_structured","gpt_no_xai","gpt_concise","gpt_structured"
+"Confusing","correct","incorrect",73.8,77.5,76.2,67.5,70,67.5,75,75,75
+"Convincing","correct","correct",90,100,100,100,100,100,100,100,100
+"Misleading","incorrect","correct",36.7,33.3,33.3,96.7,96.7,100,33.3,33.3,33.3
+"Revealing","incorrect","incorrect",41.7,55,63.3,100,83.3,78.3,100,36.7,38.3

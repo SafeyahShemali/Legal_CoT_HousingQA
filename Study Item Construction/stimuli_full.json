@@ -1,0 +1,1307 @@
+[
+  {
+    "idx": "151",
+    "cell": "Confusing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "76172"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "New York Real Property Law \u00a7 238-a governs fees in relation to a residential dwelling unit, and its provisions cannot be contracted around, since any lease provision waiving or limiting the section is void as against public policy.",
+          "statute_idx": "76172",
+          "citation": "NY Real Prop L \u00a7 238-A (2021)",
+          "quote": "Any provision of a  lease  or  contract  waiving  or  limiting  the provisions of this section shall be void as against public policy."
+        },
+        {
+          "claim": "Subdivision 2 of \u00a7 238-a directly addresses late payment of rent by prohibiting any late fee unless rent has gone unpaid for more than seven days after its due date.",
+          "statute_idx": "76172",
+          "citation": "NY Real Prop L \u00a7 238-A (2021)",
+          "quote": "No landlord, lessor, sub-lessor or grantor may demand any  payment, fee,  or  charge for the late payment of rent unless the payment of rent has not been made within five days of the date  it  was  due,  and  such payment,  fee,  or charge shall not exceed fifty dollars or five percent of the monthly rent, whichever is less."
+        },
+        {
+          "claim": "That same subdivision sets a specific numerical ceiling on the late fee amount, capping it at fifty dollars or five percent of the monthly rent, whichever is less, which is a direct limit on the amount charged rather than a general contract or timing principle.",
+          "statute_idx": "76172",
+          "citation": "NY Real Prop L \u00a7 238-A (2021)",
+          "quote": "No landlord, lessor, sub-lessor or grantor may demand any  payment, fee,  or  charge for the late payment of rent unless the payment of rent has not been made within five days of the date  it  was  due,  and  such payment,  fee,  or charge shall not exceed fifty dollars or five percent of the monthly rent, whichever is less."
+        },
+        {
+          "claim": "Because this cap applies to a private landlord and an unregulated residential tenant whose lease contains a late fee provision, and because the anti-waiver rule prevents that lease provision from overriding the cap, the law directly regulates the amount a landlord can charge as a late fee.",
+          "statute_idx": "76172",
+          "citation": "NY Real Prop L \u00a7 238-A (2021)",
+          "quote": "Any provision of a  lease  or  contract  waiving  or  limiting  the provisions of this section shall be void as against public policy."
+        }
+      ],
+      "defect_type": "grounding",
+      "defect_step": 1,
+      "defect_instruction": "State that a late fee is prohibited unless rent has gone unpaid for more than seven days after its due date, when the statute sets the threshold at five days.",
+      "statute_quote": "No landlord, lessor, sub-lessor or grantor may demand any  payment, fee,  or  charge for the late payment of rent unless the payment of rent has not been made within five days of the date  it  was  due,  and  such payment,  fee,  or charge shall not exceed fifty dollars or five percent of the monthly rent, whichever is less."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. New York Real Property Law \u00a7 238-a governs fees connected to a residential dwelling unit, and its protections cannot be contracted around: any lease or contract provision that waives or limits the section is void as against public policy. Subdivision 2 of that section addresses late payment of rent directly, prohibiting a landlord from demanding any late fee unless rent has gone unpaid for more than seven days after its due date. The same subdivision also imposes a specific numerical ceiling on the amount of any late fee, capping it at fifty dollars or five percent of the monthly rent, whichever is less. This is a direct limit on the sum a landlord may charge, not merely a general contract or timing principle. Because that cap applies to a private landlord and an unregulated residential tenant whose lease contains a late fee provision, and because the anti-waiver rule prevents that lease term from overriding the statutory cap, the law directly regulates the amount a landlord can charge as a late fee.",
+        "cited_statutes": [
+          "76172"
+        ],
+        "defect_span": "prohibiting a landlord from demanding any late fee unless rent has gone unpaid for more than seven days after its due date"
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Does New York law limit the amount a private landlord can charge an unregulated residential tenant as a late fee for overdue rent?",
+        "rule": "New York Real Property Law \u00a7 238-a governs fees charged in relation to a residential dwelling unit, and any lease or contract provision that waives or limits its protections is void as against public policy. Under this section, a landlord may not demand a late fee unless the rent has gone unpaid for more than seven days after its due date, and even then the fee may not exceed fifty dollars or five percent of the monthly rent, whichever is less.",
+        "application": "Here, the tenant occupies an unregulated residential unit under a lease that contains a late fee provision, and the landlord is a private party. Because \u00a7 238-a applies to fees connected with a residential dwelling unit, its provisions control and cannot be contracted around. Subdivision 2 of the section directly addresses late payment of rent: it prohibits any late fee unless the rent has gone unpaid for more than seven days after its due date. That same subdivision also sets a specific numerical ceiling on the fee, capping it at fifty dollars or five percent of the monthly rent, whichever is less. This is a direct limit on the amount charged, not merely a general contract or timing principle. Since the anti-waiver rule prevents the lease's late fee provision from overriding the statutory cap, the law directly regulates the amount the landlord may charge as a late fee.",
+        "conclusion": "Yes, New York law caps the late fee at fifty dollars or five percent of the monthly rent, whichever is less, and the lease cannot override that limit.",
+        "text": "Issue: Does New York law limit the amount a private landlord can charge an unregulated residential tenant as a late fee for overdue rent?\n\nRule: New York Real Property Law \u00a7 238-a governs fees charged in relation to a residential dwelling unit, and any lease or contract provision that waives or limits its protections is void as against public policy. Under this section, a landlord may not demand a late fee unless the rent has gone unpaid for more than seven days after its due date, and even then the fee may not exceed fifty dollars or five percent of the monthly rent, whichever is less.\n\nApplication: Here, the tenant occupies an unregulated residential unit under a lease that contains a late fee provision, and the landlord is a private party. Because \u00a7 238-a applies to fees connected with a residential dwelling unit, its provisions control and cannot be contracted around. Subdivision 2 of the section directly addresses late payment of rent: it prohibits any late fee unless the rent has gone unpaid for more than seven days after its due date. That same subdivision also sets a specific numerical ceiling on the fee, capping it at fifty dollars or five percent of the monthly rent, whichever is less. This is a direct limit on the amount charged, not merely a general contract or timing principle. Since the anti-waiver rule prevents the lease's late fee provision from overriding the statutory cap, the law directly regulates the amount the landlord may charge as a late fee.\n\nConclusion: Yes, New York law caps the late fee at fifty dollars or five percent of the monthly rent, whichever is less, and the lease cannot override that limit.",
+        "cited_statutes": [
+          "76172"
+        ],
+        "defect_span": "a landlord may not demand a late fee unless the rent has gone unpaid for more than seven days after its due date"
+      }
+    }
+  },
+  {
+    "idx": "158",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1645411"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "Once a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner may not terminate the tenancy without just cause stated in the written notice, and here the assumed continuous occupancy exceeds 24 months, so this threshold is met.",
+          "statute_idx": "1645411",
+          "citation": "CA Civ Code \u00a7 1946.2",
+          "quote": "(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate the tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
+        },
+        {
+          "claim": "A tenant's refusal, after a written request or demand from the owner, to execute a written extension or renewal of a written lease that terminated on or after January 1, 2020, is itself an enumerated just cause, which confirms that the expiration of a fixed written lease term does not by itself permit termination without cause.",
+          "statute_idx": "1645411",
+          "citation": "CA Civ Code \u00a7 1946.2",
+          "quote": "(E) The tenant had a written lease that terminated on or after January 1, 2020, or January 1, 2022, if the lease is for a tenancy in a mobilehome, and after a written request or demand from the owner, the tenant has refused to execute a written extension or renewal of the lease for an additional term of similar duration with similar provisions, provided that those terms do not violate this section or any other provision of law."
+        },
+        {
+          "claim": "The building here was constructed more than 15 years ago, so it is not excluded by the exemption for housing issued a certificate of occupancy within the previous 15 years, and the just cause requirement therefore continues to apply.",
+          "statute_idx": "1645411",
+          "citation": "CA Civ Code \u00a7 1946.2",
+          "quote": "(7) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+        },
+        {
+          "claim": "The exemption for property alienable separate from title requires that the owner not be a corporation, so a corporate owner of a multi-unit building cannot claim that exemption and remains subject to the just cause requirement.",
+          "statute_idx": "1645411",
+          "citation": "CA Civ Code \u00a7 1946.2",
+          "quote": "(ii) A corporation."
+        },
+        {
+          "claim": "Because the just cause requirement in subdivision (a) applies and no listed exemption removes it, the owner is required to have just cause to terminate the tenancy even at the end of a fixed written lease term.",
+          "statute_idx": "1645411",
+          "citation": "CA Civ Code \u00a7 1946.2",
+          "quote": "(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate the tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes, the owner needs just cause to terminate the tenancy even at the end of the fixed lease term. Under California Civil Code \u00a7 1946.2, once a tenant has continuously and lawfully occupied a residential property for 12 months, the owner may not terminate the tenancy without just cause, which must be stated in the written termination notice. Here, the assumed continuous occupancy exceeds 24 months, so this threshold is comfortably met. Notably, the statute lists as one of its just cause grounds a tenant's refusal, after a written request or demand from the owner, to execute a written extension or renewal of a lease that terminated on or after January 1, 2020. The existence of this ground confirms that the mere expiration of a fixed written lease term does not, by itself, allow the owner to terminate without cause. Nor do the relevant exemptions apply. The exemption for housing issued a certificate of occupancy within the previous 15 years does not reach this building, which was constructed more than 15 years ago, so the just cause requirement continues to apply. And the exemption for property alienable separate from the title requires that the owner not be a corporation; a corporate owner of a multi-unit building therefore cannot claim it and remains subject to the just cause requirement. Because the just cause requirement applies and no listed exemption removes it, the owner must have just cause to terminate the tenancy even at the conclusion of the fixed written lease term.",
+        "cited_statutes": [
+          "1645411"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Whether a corporate owner of a multi-unit building constructed more than 15 years ago must have just cause to terminate the tenancy of a tenant who has occupied the unit for over 24 months, even at the end of a fixed written lease term.",
+        "rule": "Under California Civil Code section 1946.2, once a tenant has continuously and lawfully occupied residential real property for 12 months, the owner may not terminate the tenancy without just cause, which must be stated in the written notice to terminate. The statute enumerates just causes, one of which is a tenant's refusal, after a written request or demand from the owner, to execute a written extension or renewal of a lease that terminated on or after January 1, 2020. The statute exempts certain housing, including housing issued a certificate of occupancy within the previous 15 years, and it makes an exemption for property alienable separate from title unavailable where the owner is a corporation.",
+        "application": "Here, the tenant has continuously and lawfully occupied the property for more than 24 months, which exceeds the 12-month threshold that triggers the just cause requirement. The presence of an enumerated just cause based on a tenant's refusal to execute a written extension or renewal of a lease that terminated on or after January 1, 2020, confirms that the mere expiration of a fixed written lease term does not by itself permit termination without cause; the owner still needs a listed just cause. The building was constructed more than 15 years ago, so it does not fall within the exemption for housing issued a certificate of occupancy within the previous 15 years, and the just cause requirement continues to apply. The exemption for property alienable separate from title is unavailable because the owner is a corporation, and a corporate owner of a multi-unit building therefore cannot rely on that exemption and remains subject to the just cause requirement. Because the just cause requirement applies and no listed exemption removes it, the owner must have just cause to terminate the tenancy even at the end of the fixed written lease term.",
+        "conclusion": "Yes, the owner must have just cause to terminate the tenancy.",
+        "text": "Issue: Whether a corporate owner of a multi-unit building constructed more than 15 years ago must have just cause to terminate the tenancy of a tenant who has occupied the unit for over 24 months, even at the end of a fixed written lease term.\n\nRule: Under California Civil Code section 1946.2, once a tenant has continuously and lawfully occupied residential real property for 12 months, the owner may not terminate the tenancy without just cause, which must be stated in the written notice to terminate. The statute enumerates just causes, one of which is a tenant's refusal, after a written request or demand from the owner, to execute a written extension or renewal of a lease that terminated on or after January 1, 2020. The statute exempts certain housing, including housing issued a certificate of occupancy within the previous 15 years, and it makes an exemption for property alienable separate from title unavailable where the owner is a corporation.\n\nApplication: Here, the tenant has continuously and lawfully occupied the property for more than 24 months, which exceeds the 12-month threshold that triggers the just cause requirement. The presence of an enumerated just cause based on a tenant's refusal to execute a written extension or renewal of a lease that terminated on or after January 1, 2020, confirms that the mere expiration of a fixed written lease term does not by itself permit termination without cause; the owner still needs a listed just cause. The building was constructed more than 15 years ago, so it does not fall within the exemption for housing issued a certificate of occupancy within the previous 15 years, and the just cause requirement continues to apply. The exemption for property alienable separate from title is unavailable because the owner is a corporation, and a corporate owner of a multi-unit building therefore cannot rely on that exemption and remains subject to the just cause requirement. Because the just cause requirement applies and no listed exemption removes it, the owner must have just cause to terminate the tenancy even at the end of the fixed written lease term.\n\nConclusion: Yes, the owner must have just cause to terminate the tenancy.",
+        "cited_statutes": [
+          "1645411"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "479",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1727821",
+        "1727826",
+        "1727678"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "In an unlawful detainer action, the defendant is required to file a response within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served.",
+          "statute_idx": "1727821",
+          "citation": "CA Civ Pro Code \u00a7 1167",
+          "quote": "The summons shall be in the form specified in Section 412.20 except that when the defendant is served, the defendant\u2019s response shall be filed within five days, excluding Saturdays and Sundays and other judicial holidays, after the complaint is served upon him or her."
+        },
+        {
+          "claim": "A defendant appears in an action by answering, demurring, filing a notice of motion to strike, or through the other specified acts, which establishes what counts as responding to the action.",
+          "statute_idx": "1727678",
+          "citation": "CA Civ Pro Code \u00a7 1014",
+          "quote": "A defendant appears in an action when the defendant answers, demurs, files a notice of motion to strike, files a notice of motion to transfer pursuant to Section 396b, moves for reclassification pursuant to Section 403.040, gives the plaintiff written notice of appearance, or when an attorney gives notice of appearance for the defendant."
+        },
+        {
+          "claim": "If a defendant served with a summons does not appear and defend at the appointed time, the clerk shall enter that defendant's default upon the plaintiff's written application and proof of service.",
+          "statute_idx": "1727826",
+          "citation": "CA Civ Pro Code \u00a7 1169",
+          "quote": "If, at the time appointed, any defendant served with a summons does not appear and defend, the clerk, upon written application of the plaintiff and proof of the service of summons and complaint, shall enter the default of any defendant so served, and, if requested by the plaintiff, immediately shall enter judgment for restitution of the premises and shall issue a writ of execution thereon."
+        },
+        {
+          "claim": "Because failure to appear and defend after service of the summons results in entry of default and, on the plaintiff's request, immediate judgment for restitution of the premises, the statutes specify that a tenant who does not respond to the summons loses the opportunity for a contested hearing and is subject to a default judgment.",
+          "statute_idx": "1727826",
+          "citation": "CA Civ Pro Code \u00a7 1169",
+          "quote": "If, at the time appointed, any defendant served with a summons does not appear and defend, the clerk, upon written application of the plaintiff and proof of the service of summons and complaint, shall enter the default of any defendant so served, and, if requested by the plaintiff, immediately shall enter judgment for restitution of the premises and shall issue a writ of execution thereon."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. In a California unlawful detainer action, a tenant who is served with the summons and complaint must file a response within five days, not counting Saturdays, Sundays, and other judicial holidays, after the complaint is served, under CA Civ Pro Code \u00a7 1167. A defendant responds by appearing in the action, which under CA Civ Pro Code \u00a7 1014 means answering, demurring, filing a notice of motion to strike, filing a notice of motion to transfer, moving for reclassification, giving the plaintiff written notice of appearance, or having an attorney give notice of appearance. If a defendant who was served does not appear and defend at the appointed time, then under CA Civ Pro Code \u00a7 1169 the clerk, on the plaintiff's written application and proof of service, must enter the defendant's default and, if the plaintiff requests, immediately enter judgment for restitution of the premises and issue a writ of execution. Because failing to appear and defend after being served leads to entry of default and, at the plaintiff's request, an immediate judgment for possession of the premises, a tenant who does not respond to the summons loses the chance for a contested hearing and becomes subject to a default judgment.",
+        "cited_statutes": [
+          "1727821",
+          "1727826",
+          "1727678"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "In a California unlawful detainer action, will a tenant who fails to respond to the summons be subject to a default judgment?",
+        "rule": "Under CA Civ Pro Code \u00a7 1167, a defendant served in an unlawful detainer action must file a response within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. CA Civ Pro Code \u00a7 1014 identifies what constitutes appearing in an action: a defendant appears by answering, demurring, filing a notice of motion to strike, filing a notice of motion to transfer, moving for reclassification, giving the plaintiff written notice of appearance, or having an attorney give notice of appearance. Under CA Civ Pro Code \u00a7 1169, if a defendant served with a summons does not appear and defend at the appointed time, the clerk, upon the plaintiff's written application and proof of service of the summons and complaint, must enter that defendant's default and, if the plaintiff requests, must immediately enter judgment for restitution of the premises and issue a writ of execution.",
+        "application": "Here, the tenant is a defendant served with a summons in an unlawful detainer action. CA Civ Pro Code \u00a7 1167 requires that tenant to file a response within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. CA Civ Pro Code \u00a7 1014 specifies the acts that count as appearing in the action, such as answering, demurring, or filing a notice of motion to strike, so a tenant who does none of these has not responded to the action. When a tenant fails to appear and defend after being served, CA Civ Pro Code \u00a7 1169 directs the clerk, upon the plaintiff's written application and proof of service, to enter the tenant's default and, at the plaintiff's request, immediately enter judgment for restitution of the premises and issue a writ of execution. Because failure to appear and defend after service produces entry of default and, on the plaintiff's request, immediate judgment for restitution of the premises, a tenant who does not respond to the summons loses the opportunity for a contested hearing and is subject to a default judgment.",
+        "conclusion": "Yes. A tenant who fails to respond to the summons in a California unlawful detainer action is subject to a default judgment, including a judgment for restitution of the premises.",
+        "text": "Issue: In a California unlawful detainer action, will a tenant who fails to respond to the summons be subject to a default judgment?\n\nRule: Under CA Civ Pro Code \u00a7 1167, a defendant served in an unlawful detainer action must file a response within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. CA Civ Pro Code \u00a7 1014 identifies what constitutes appearing in an action: a defendant appears by answering, demurring, filing a notice of motion to strike, filing a notice of motion to transfer, moving for reclassification, giving the plaintiff written notice of appearance, or having an attorney give notice of appearance. Under CA Civ Pro Code \u00a7 1169, if a defendant served with a summons does not appear and defend at the appointed time, the clerk, upon the plaintiff's written application and proof of service of the summons and complaint, must enter that defendant's default and, if the plaintiff requests, must immediately enter judgment for restitution of the premises and issue a writ of execution.\n\nApplication: Here, the tenant is a defendant served with a summons in an unlawful detainer action. CA Civ Pro Code \u00a7 1167 requires that tenant to file a response within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. CA Civ Pro Code \u00a7 1014 specifies the acts that count as appearing in the action, such as answering, demurring, or filing a notice of motion to strike, so a tenant who does none of these has not responded to the action. When a tenant fails to appear and defend after being served, CA Civ Pro Code \u00a7 1169 directs the clerk, upon the plaintiff's written application and proof of service, to enter the tenant's default and, at the plaintiff's request, immediately enter judgment for restitution of the premises and issue a writ of execution. Because failure to appear and defend after service produces entry of default and, on the plaintiff's request, immediate judgment for restitution of the premises, a tenant who does not respond to the summons loses the opportunity for a contested hearing and is subject to a default judgment.\n\nConclusion: Yes. A tenant who fails to respond to the summons in a California unlawful detainer action is subject to a default judgment, including a judgment for restitution of the premises.",
+        "cited_statutes": [
+          "1727821",
+          "1727826",
+          "1727678"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "1001",
+    "cell": "Confusing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1125195",
+        "1125190"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "The tenant is obligated to conduct himself, and require others on the premises with his consent to conduct themselves, in a manner that does not unreasonably disturb the tenant's neighbors or constitute a breach of the peace, and not to destroy, deface, damage, impair, or remove any part of the premises or property belonging to the landlord.",
+          "statute_idx": "1125190",
+          "citation": "FL Stat \u00a7 83.52 (2021)",
+          "quote": "Conduct himself or herself, and require other persons on the premises with his or her consent to conduct themselves, in a manner that does not unreasonably disturb the tenant\u2019s neighbors or constitute a breach of the peace."
+        },
+        {
+          "claim": "When a tenant materially fails to comply with s. 83.52 or material provisions of the rental agreement, other than a failure to pay rent, the landlord may proceed to terminate the rental agreement under s. 83.56(2).",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "If the tenant materially fails to comply with s. 83.52 or material provisions of the rental agreement, other than a failure to pay rent, or reasonable rules or regulations, the landlord may:"
+        },
+        {
+          "claim": "Because paragraph (2)(a) provides that a landlord may deliver a written notice of intent to terminate whenever the tenant materially fails to comply with s. 83.52, every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "If such noncompliance is of a nature that the tenant should not be given an opportunity to cure it or if the noncompliance constitutes a subsequent or continuing noncompliance within 12 months of a written warning by the landlord of a similar violation, deliver a written notice to the tenant specifying the noncompliance and the landlord\u2019s intent to terminate the rental agreement by reason thereof."
+        },
+        {
+          "claim": "Misuse of the landlord's or other tenants' property by intentional act, or a subsequent or continued unreasonable disturbance, is an example of noncompliance of a nature that the tenant should not be given an opportunity to cure, so such conduct supports a 7-day termination notice under s. 83.56(2)(a).",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "Examples of noncompliance which are of a nature that the tenant should not be given an opportunity to cure include, but are not limited to, destruction, damage, or misuse of the landlord\u2019s or other tenants\u2019 property by intentional act or a subsequent or continued unreasonable disturbance."
+        },
+        {
+          "claim": "Once the rental agreement is terminated under s. 83.56(2)(a), the tenant has 7 days from delivery of the notice to vacate the premises, and the landlord may thereby evict the tenant for the nuisance, disturbance, health hazard, or misuse conduct at issue.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "In such event, the landlord may terminate the rental agreement, and the tenant shall have 7 days from the date that the notice is delivered to vacate the premises."
+        }
+      ],
+      "defect_type": "validity",
+      "defect_step": 2,
+      "defect_instruction": "Assert that because s. 83.56(2)(a) lets a landlord terminate when noncompliance is of a nature that should not be cured, every material failure to comply with s. 83.52 is treated as noncurable and always permits a 7-day notice to vacate, when in fact s. 83.56(2) branches between (a) noncurable noncompliance and (b) curable noncompliance requiring a 7-day notice to cure, so not every noncompliance is noncurable.",
+      "statute_quote": "If such noncompliance is of a nature that the tenant should be given an opportunity to cure it, deliver a written notice to the tenant specifying the noncompliance, including a notice that, if the noncompliance is not corrected within 7 days from the date that the written notice is delivered, the landlord shall terminate the rental agreement by reason thereof."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under FL Stat \u00a7 83.52 (2021), a tenant must conduct himself, and require others on the premises with his consent to conduct themselves, in a manner that does not unreasonably disturb neighbors or breach the peace, and must not destroy, deface, damage, impair, or remove any part of the premises or the landlord's property. When a tenant materially fails to comply with FL Stat \u00a7 83.52 (2021) or with material provisions of the rental agreement, other than a failure to pay rent, FL Stat \u00a7 83.56 (2021) permits the landlord to proceed to terminate the tenancy. Because paragraph (2)(a) allows a landlord to deliver written notice of intent to terminate whenever the tenant materially fails to comply with FL Stat \u00a7 83.52 (2021), every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure. Indeed, FL Stat \u00a7 83.56 (2021) gives, as examples of noncompliance the tenant should not be allowed to cure, the destruction, damage, or misuse of the landlord's or other tenants' property by intentional act, or a subsequent or continued unreasonable disturbance, so such conduct supports a 7-day termination notice. Once the agreement is terminated on this basis, the tenant has 7 days from delivery of the notice to vacate, and the landlord may thereby evict the tenant for the nuisance, disturbance, health hazard, or misuse conduct at issue.",
+        "cited_statutes": [
+          "1125195",
+          "1125190"
+        ],
+        "defect_span": "Because paragraph (2)(a) allows a landlord to deliver written notice of intent to terminate whenever the tenant materially fails to comply with FL Stat \u00a7 83.52 (2021), every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure."
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "May a Florida landlord evict a tenant with a 7-day notice to vacate based on the tenant's disturbance, damage, or misuse of property on the premises?",
+        "rule": "Under FL Stat \u00a7 83.52 (2021), a tenant must conduct himself, and require others on the premises with his consent to conduct themselves, in a manner that does not unreasonably disturb neighbors or breach the peace, and must not destroy, deface, damage, or remove any part of the premises or the landlord's property. Under FL Stat \u00a7 83.56 (2021), when a tenant materially fails to comply with these obligations or with material provisions of the rental agreement, other than failure to pay rent, the landlord may proceed to terminate the tenancy.",
+        "application": "The tenant here is bound by the duty to avoid unreasonably disturbing neighbors and to refrain from damaging or misusing the landlord's or other tenants' property. Because the statute permits a landlord to deliver a written notice of intent to terminate whenever the tenant materially fails to comply with these duties, every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure. Misuse of the landlord's or other tenants' property by intentional act, or a subsequent or continued unreasonable disturbance, is precisely the kind of noncompliance for which the tenant should not be given an opportunity to cure, and such conduct supports a 7-day termination notice. Once the tenancy is terminated on this basis, the tenant has 7 days from delivery of the notice to vacate, and the landlord may thereby evict the tenant for the nuisance, disturbance, health hazard, or misuse conduct at issue.",
+        "conclusion": "Yes, the landlord may terminate the tenancy and evict the tenant with a 7-day notice to vacate for the disturbance or misuse of property.",
+        "text": "Issue: May a Florida landlord evict a tenant with a 7-day notice to vacate based on the tenant's disturbance, damage, or misuse of property on the premises?\n\nRule: Under FL Stat \u00a7 83.52 (2021), a tenant must conduct himself, and require others on the premises with his consent to conduct themselves, in a manner that does not unreasonably disturb neighbors or breach the peace, and must not destroy, deface, damage, or remove any part of the premises or the landlord's property. Under FL Stat \u00a7 83.56 (2021), when a tenant materially fails to comply with these obligations or with material provisions of the rental agreement, other than failure to pay rent, the landlord may proceed to terminate the tenancy.\n\nApplication: The tenant here is bound by the duty to avoid unreasonably disturbing neighbors and to refrain from damaging or misusing the landlord's or other tenants' property. Because the statute permits a landlord to deliver a written notice of intent to terminate whenever the tenant materially fails to comply with these duties, every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure. Misuse of the landlord's or other tenants' property by intentional act, or a subsequent or continued unreasonable disturbance, is precisely the kind of noncompliance for which the tenant should not be given an opportunity to cure, and such conduct supports a 7-day termination notice. Once the tenancy is terminated on this basis, the tenant has 7 days from delivery of the notice to vacate, and the landlord may thereby evict the tenant for the nuisance, disturbance, health hazard, or misuse conduct at issue.\n\nConclusion: Yes, the landlord may terminate the tenancy and evict the tenant with a 7-day notice to vacate for the disturbance or misuse of property.",
+        "cited_statutes": [
+          "1125195",
+          "1125190"
+        ],
+        "defect_span": "Because the statute permits a landlord to deliver a written notice of intent to terminate whenever the tenant materially fails to comply with these duties, every such noncompliance is treated as noncurable, and the landlord may in all cases terminate with a 7-day notice to vacate rather than a notice to cure."
+      }
+    }
+  },
+  {
+    "idx": "1096",
+    "cell": "Confusing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "159150",
+        "159166",
+        "929545990"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A landlord may treat the lease as void and recover possession when a lessee or occupant uses or permits the use of the leased premises for an act that would constitute a felony or Class A misdemeanor, which covers nuisance activity rising to that level such as maintaining a serious health hazard or misuse of property that is criminal.",
+          "statute_idx": "159150",
+          "citation": "735 ILCS 5/9-120",
+          "quote": "If any lessee or occupant, on one or more occasions, uses or permits the  use of leased premises for the commission of any act that would constitute a  felony or a Class A misdemeanor under the laws of this State, the lease or  rental agreement shall, at the option of the lessor or  the lessor's  assignee become void, and the owner or lessor shall be entitled to recover  possession of the leased premises as against a tenant holding over after the  expiration of his or her term."
+        },
+        {
+          "claim": "Under this ground the landlord may bring an eviction action directly against the lessee and all occupants of the leased premises.",
+          "statute_idx": "159150",
+          "citation": "735 ILCS 5/9-120",
+          "quote": "The owner or lessor may bring an eviction action, or,  if  the State's Attorney of the county in which the real property is  located or the corporation counsel of the municipality in which the real property is located agrees, assign to that State's Attorney or corporation counsel the right to bring an eviction action on behalf of  the owner or lessor, against the lessee and all occupants of the leased  premises."
+        },
+        {
+          "claim": "Where nuisance activity takes the form of using the premises for controlled substances, the lessor may void the lease and, after posting a written notice requiring the occupant to vacate within 3 days, recover possession as against a holdover tenant.",
+          "statute_idx": "929545990",
+          "citation": "740 ILCS 40/11",
+          "quote": "If any lessee or occupant, on one or more occasions, shall use leased premises for the purpose of unlawful possessing, serving, storing, manufacturing, cultivating, delivering, using, selling or giving away controlled substances or shall permit them to be used for any such purposes, the lease or contract for letting such premises shall, at the option of the lessor or the lessor's assignee, become void, and the owner or the owner's assignee may notify the lessee or occupant by posting a written notice at the premises requiring the lessee or occupant to vacate the leased premises on or before a date 5 days after the giving of the notice."
+        },
+        {
+          "claim": "When default is made in any of the terms of a lease, the landlord may terminate the tenancy on 10 days' notice to quit, which supplies the procedural path to end a tenancy for nuisance conduct that constitutes a default.",
+          "statute_idx": "159166",
+          "citation": "735 ILCS 5/9-210",
+          "quote": "When default is made in any of the terms  of a lease, it is  not necessary to give more than 10 days' notice to quit, or of the  termination of such tenancy, and the same may be terminated on giving  such notice to quit at any time after such default in any of the terms  of such lease."
+        }
+      ],
+      "defect_type": "grounding",
+      "defect_step": 2,
+      "defect_instruction": "State that the controlled-substances notice under 740 ILCS 40/11 requires the occupant to vacate within 3 days, when the statute says 5 days after the giving of the notice.",
+      "statute_quote": "If any lessee or occupant, on one or more occasions, shall use leased premises for the purpose of unlawful possessing, serving, storing, manufacturing, cultivating, delivering, using, selling or giving away controlled substances or shall permit them to be used for any such purposes, the lease or contract for letting such premises shall, at the option of the lessor or the lessor's assignee, become void, and the owner or the owner's assignee may notify the lessee or occupant by posting a written notice at the premises requiring the lessee or occupant to vacate the leased premises on or before a date 5 days after the giving of the notice."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under 735 ILCS 5/9-120, a landlord may treat the lease as void and recover possession where a lessee or occupant, on one or more occasions, uses or permits the use of the leased premises for an act that would constitute a felony or a Class A misdemeanor under Illinois law. This covers nuisance activity that rises to that level, such as maintaining a serious health hazard or misusing the property in a way that is criminal. On this ground, the landlord may bring an eviction action directly against the lessee and all occupants of the leased premises. Where the nuisance takes the form of using the premises for controlled substances, 740 ILCS 40/11 allows the lessor to void the lease and, after posting a written notice at the premises requiring the occupant to vacate within 3 days, recover possession as against a tenant holding over. Finally, when a default is made in any of the terms of a lease, 735 ILCS 5/9-210 permits the landlord to terminate the tenancy on 10 days' notice to quit, supplying the procedural path to end a tenancy for nuisance conduct that constitutes a default.",
+        "cited_statutes": [
+          "159150",
+          "159166",
+          "929545990"
+        ],
+        "defect_span": "requiring the occupant to vacate within 3 days"
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "May an Illinois landlord void the lease and recover possession where a tenant's nuisance activity rises to the level of criminal conduct, including the use of the premises for controlled substances?",
+        "rule": "Under 735 ILCS 5/9-120, if a lessee or occupant uses or permits the use of leased premises for an act constituting a felony or Class A misdemeanor, the lease becomes void at the lessor's option, and the lessor is entitled to recover possession as against a holdover tenant. That same section authorizes the owner or lessor to bring an eviction action against the lessee and all occupants of the premises. Where the nuisance takes the form of using the premises for controlled substances, 740 ILCS 40/11 provides that the lease becomes void at the lessor's option and permits the lessor to recover possession after posting a written notice requiring the occupant to vacate. Finally, 735 ILCS 5/9-210 provides that when a default is made in any term of a lease, no more than 10 days' notice to quit is required to terminate the tenancy.",
+        "application": "A landlord may treat the lease as void and recover possession when a lessee or occupant, on one or more occasions, uses or permits the use of the leased premises for an act that would constitute a felony or a Class A misdemeanor. This covers nuisance activity that rises to that level, such as maintaining a serious health hazard or a criminal misuse of the property. Under this ground, the landlord may bring an eviction action directly against the lessee and all occupants of the leased premises. Where the nuisance activity takes the specific form of using the premises for controlled substances, the lessor may void the lease and, after posting a written notice requiring the occupant to vacate within 3 days, recover possession as against a holdover tenant. And where the nuisance conduct amounts to a default in the terms of the lease, the landlord may terminate the tenancy on 10 days' notice to quit, which supplies the procedural path to end the tenancy.",
+        "conclusion": "Yes. The landlord may void the lease and recover possession for nuisance activity that constitutes criminal conduct, including drug-related use of the premises, using the statutory eviction and notice procedures described above.",
+        "text": "Issue: May an Illinois landlord void the lease and recover possession where a tenant's nuisance activity rises to the level of criminal conduct, including the use of the premises for controlled substances?\n\nRule: Under 735 ILCS 5/9-120, if a lessee or occupant uses or permits the use of leased premises for an act constituting a felony or Class A misdemeanor, the lease becomes void at the lessor's option, and the lessor is entitled to recover possession as against a holdover tenant. That same section authorizes the owner or lessor to bring an eviction action against the lessee and all occupants of the premises. Where the nuisance takes the form of using the premises for controlled substances, 740 ILCS 40/11 provides that the lease becomes void at the lessor's option and permits the lessor to recover possession after posting a written notice requiring the occupant to vacate. Finally, 735 ILCS 5/9-210 provides that when a default is made in any term of a lease, no more than 10 days' notice to quit is required to terminate the tenancy.\n\nApplication: A landlord may treat the lease as void and recover possession when a lessee or occupant, on one or more occasions, uses or permits the use of the leased premises for an act that would constitute a felony or a Class A misdemeanor. This covers nuisance activity that rises to that level, such as maintaining a serious health hazard or a criminal misuse of the property. Under this ground, the landlord may bring an eviction action directly against the lessee and all occupants of the leased premises. Where the nuisance activity takes the specific form of using the premises for controlled substances, the lessor may void the lease and, after posting a written notice requiring the occupant to vacate within 3 days, recover possession as against a holdover tenant. And where the nuisance conduct amounts to a default in the terms of the lease, the landlord may terminate the tenancy on 10 days' notice to quit, which supplies the procedural path to end the tenancy.\n\nConclusion: Yes. The landlord may void the lease and recover possession for nuisance activity that constitutes criminal conduct, including drug-related use of the premises, using the statutory eviction and notice procedures described above.",
+        "cited_statutes": [
+          "159150",
+          "159166",
+          "929545990"
+        ],
+        "defect_span": "after posting a written notice requiring the occupant to vacate within 3 days"
+      }
+    }
+  },
+  {
+    "idx": "1449",
+    "cell": "Revealing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "76545",
+        "76146",
+        "76563"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A landlord seeking to remove a residential tenant may not do so except through a special proceeding, and such a proceeding may be maintained where the tenant continues in possession after the expiration of his term, including where the lease itself gives the landlord the right to terminate the fixed occupancy period if he deems the tenant objectionable, provided the landlord establishes by competent evidence that the tenant is objectionable.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "A proceeding seeking to recover   possession of real property by reason of the  termination  of  the  term   fixed  in the lease pursuant to a provision contained therein giving the   landlord the right to terminate the time fixed for occupancy under  such   agreement if he deem the tenant objectionable, shall not be maintainable   unless  the  landlord  shall  by  competent  evidence  establish  to the   satisfaction of the court that the tenant is objectionable."
+        },
+        {
+          "claim": "Where a lease contains a provision letting the landlord end the fixed occupancy term for an objectionable tenant, material falsification on the rental application supplies the competent evidence that the tenant is objectionable, so a special proceeding on the holdover ground in the first subdivision is maintainable against such a tenant.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "The tenant continues in possession of any portion of  the  premises   after the expiration of his term, without the permission of the landlord   or,  in a case where a new lessee is entitled to possession, without the   permission of the new lessee."
+        },
+        {
+          "claim": "Because a lease becomes void upon the occurrence of the statutory triggering condition and the landlord may then enter upon the premises, a lease grounded on a materially false application likewise loses its protective force, confirming that the landlord's right to recover possession is statutorily supported once the ground is established.",
+          "statute_idx": "76146",
+          "citation": "NY Real Prop L \u00a7 231 (2021)",
+          "quote": "Whenever the lessee or occupant  other   than  the  owner  of  any  building or premises, shall use or occupy the   same, or any part thereof, for any illegal trade, manufacture  or  other   business,  the  lease  or agreement for the letting or occupancy of such   building or premises, or any part thereof shall thereupon  become  void,   and  the landlord of such lessee or occupant may enter upon the premises   so let or occupied."
+        },
+        {
+          "claim": "Even where the removal rests on a breach of a lease provision, the court affords the tenant only a thirty-day stay to correct the breach, after which issuance of the warrant proceeds, so the availability of that limited stay confirms that eviction for a lease-based ground such as application falsification is a recognized and enforceable path to possession.",
+          "statute_idx": "76563",
+          "citation": "NY Real Prop Actions L \u00a7 753 (2021)",
+          "quote": "In the event that such proceeding is based upon a  claim  that  the   tenant  or lessee has breached a provision of the lease, the court shall   grant a thirty day stay of issuance of the warrant,  during  which  time   the respondent may correct such breach."
+        }
+      ],
+      "defect_type": "completeness",
+      "defect_step": 1,
+      "defect_instruction": "Treat material falsification on the rental application as satisfying the 'objectionable tenant' holdover ground while staying silent on subdivision 5 of the same section, which independently enumerates the specific illegal-use grounds (bawdy-house, prostitution, illegal trade or manufacture) for which a special proceeding may be maintained and which does not include application falsification; do not cite or address that subdivision, so the reader is not prompted to compare the enumerated statutory grounds against the asserted one.",
+      "statute_quote": "The premises, or any part  thereof,  are  used  or  occupied  as  a   bawdy-house,  or  house or place of assignation for lewd persons, or for   purposes of prostitution, or for any illegal trade  or  manufacture,  or   other illegal business."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes, a landlord can pursue eviction on these facts. Under NY Real Prop Actions L \u00a7 711 (2021), a landlord may only remove a residential tenant through a special proceeding, and such a proceeding may be maintained where the tenant remains in possession after the expiration of his term, including where the lease itself gives the landlord the right to terminate the fixed occupancy period if he deems the tenant objectionable, so long as the landlord establishes by competent evidence that the tenant is in fact objectionable. Where the lease contains such a provision, material falsification on the rental application supplies the competent evidence that the tenant is objectionable, so a special holdover proceeding is maintainable against such a tenant because the tenant continues in possession beyond his term without the landlord's permission. This conclusion is reinforced by NY Real Prop L \u00a7 231 (2021), which provides that a lease becomes void upon the occurrence of the statutory triggering condition and permits the landlord to enter the premises; a lease grounded on a materially false application likewise loses its protective force, confirming that the landlord's right to recover possession is statutorily supported once the ground is established. Finally, NY Real Prop Actions L \u00a7 753 (2021) provides that when the removal rests on a breach of a lease provision, the court grants the tenant only a thirty-day stay to cure the breach, after which the warrant issues; the availability of that limited stay confirms that eviction for a lease-based ground such as application falsification is a recognized and enforceable path to possession.",
+        "cited_statutes": [
+          "76545",
+          "76146",
+          "76563"
+        ],
+        "defect_span": "material falsification on the rental application supplies the competent evidence that the tenant is objectionable, so a special holdover proceeding is maintainable against such a tenant because the tenant continues in possession beyond his term without the landlord's permission"
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "May a landlord maintain a special proceeding to evict a residential tenant who materially falsified information on the rental application?",
+        "rule": "Under NY Real Prop Actions L \u00a7 711 (2021), a landlord may recover possession of residential property only through a special proceeding, which may be maintained where the tenant continues in possession after the expiration of his term, including where the lease grants the landlord the right to end the fixed occupancy period upon deeming the tenant objectionable, so long as the landlord proves by competent evidence that the tenant is objectionable. Under NY Real Prop L \u00a7 231 (2021), a lease becomes void upon the occurrence of the statutory triggering condition, and the landlord may then enter upon the premises. Under NY Real Prop Actions L \u00a7 753 (2021), where a proceeding rests on a breach of a lease provision, the court must grant the tenant a thirty-day stay of the warrant's issuance to correct the breach.",
+        "application": "Where the lease contains a provision allowing the landlord to terminate the fixed occupancy term for an objectionable tenant, a material falsification on the rental application supplies the competent evidence establishing that the tenant is objectionable, satisfying the objectionable-tenant holdover ground. On that basis, the tenant is one who continues in possession after the expiration of his term without the landlord's permission, so a special proceeding to recover possession is maintainable. Because a lease becomes void upon the occurrence of the statutory triggering condition and permits the landlord to enter, a lease grounded on a materially false application likewise loses its protective force, confirming that the landlord's right to recover possession is statutorily supported once the ground is established. Finally, even where the removal rests on a breach of a lease provision, the tenant receives only a thirty-day stay to cure the breach, after which the warrant issues; the availability of that limited stay confirms that eviction for a lease-based ground such as application falsification is a recognized and enforceable path to possession.",
+        "conclusion": "Yes, the landlord may pursue a special proceeding to evict a tenant who materially falsified the rental application.",
+        "text": "Issue: May a landlord maintain a special proceeding to evict a residential tenant who materially falsified information on the rental application?\n\nRule: Under NY Real Prop Actions L \u00a7 711 (2021), a landlord may recover possession of residential property only through a special proceeding, which may be maintained where the tenant continues in possession after the expiration of his term, including where the lease grants the landlord the right to end the fixed occupancy period upon deeming the tenant objectionable, so long as the landlord proves by competent evidence that the tenant is objectionable. Under NY Real Prop L \u00a7 231 (2021), a lease becomes void upon the occurrence of the statutory triggering condition, and the landlord may then enter upon the premises. Under NY Real Prop Actions L \u00a7 753 (2021), where a proceeding rests on a breach of a lease provision, the court must grant the tenant a thirty-day stay of the warrant's issuance to correct the breach.\n\nApplication: Where the lease contains a provision allowing the landlord to terminate the fixed occupancy term for an objectionable tenant, a material falsification on the rental application supplies the competent evidence establishing that the tenant is objectionable, satisfying the objectionable-tenant holdover ground. On that basis, the tenant is one who continues in possession after the expiration of his term without the landlord's permission, so a special proceeding to recover possession is maintainable. Because a lease becomes void upon the occurrence of the statutory triggering condition and permits the landlord to enter, a lease grounded on a materially false application likewise loses its protective force, confirming that the landlord's right to recover possession is statutorily supported once the ground is established. Finally, even where the removal rests on a breach of a lease provision, the tenant receives only a thirty-day stay to cure the breach, after which the warrant issues; the availability of that limited stay confirms that eviction for a lease-based ground such as application falsification is a recognized and enforceable path to possession.\n\nConclusion: Yes, the landlord may pursue a special proceeding to evict a tenant who materially falsified the rental application.",
+        "cited_statutes": [
+          "76545",
+          "76146",
+          "76563"
+        ],
+        "defect_span": "a material falsification on the rental application supplies the competent evidence establishing that the tenant is objectionable, satisfying the objectionable-tenant holdover ground"
+      }
+    }
+  },
+  {
+    "idx": "1453",
+    "cell": "Confusing",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "76545",
+        "76140",
+        "76557"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A private landlord may remove a residential tenant only through a special proceeding maintained on one of the grounds enumerated in the statute, so any eviction must fit one of those enumerated grounds.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "No  tenant  or  lawful  occupant  of a dwelling or housing accommodation   shall be removed from possession  except  in  a  special  proceeding.",
+          "defect_step": false
+        },
+        {
+          "claim": "None of the grounds available in a special proceeding reaches domestic violence conduct: the grounds are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or illegal trade, manufacture, or business.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "The premises, or any part  thereof,  are  used  or  occupied  as  a   bawdy-house,  or  house or place of assignation for lewd persons, or for   purposes of prostitution, or for any illegal trade  or  manufacture,  or   other illegal business.",
+          "defect_step": false
+        },
+        {
+          "claim": "A person who is subject to a protective order or criminal complaint for domestic abuse falls within domestic violence victim status only when that person is the victim; the statute defines the status by reference to being a victim of a violent felony offense or family offense committed by a family or household member.",
+          "statute_idx": "76140",
+          "citation": "NY Real Prop L \u00a7 227-d (2021)",
+          "quote": "For  the  purposes  of  this section,  a  person is a \"domestic violence  victim\"  and  possesses  \"domestic  violence  victim status\"  if  such person is or has been, or is a parent accompanied by a minor child or children who is or has been, in a situation in which such person or child is a victim of an act that would  constitute  a  violent felony  offense  as  enumerated  in section 70.02 of the penal law, or a family offense as enumerated in subdivision one of section eight hundred twelve of the family court act, and such act is  alleged  to  have  been committed  by  a  member  of the same family or household, as defined in subdivision one of section eight hundred twelve of the family court act.",
+          "defect_step": false
+        },
+        {
+          "claim": "A tenant cannot be removed under this article because of that tenant's domestic violence victim status, and it is a defense that the landlord seeks recovery because of that status.",
+          "statute_idx": "76557",
+          "citation": "NY Real Prop Actions L \u00a7 744 (2021)",
+          "quote": "A tenant shall not be removed from possession of a residential  unit   pursuant  to  this  article  because  of such person's domestic violence   victim status, as defined in section two hundred twenty-seven-d  of  the   real  property  law.",
+          "defect_step": false
+        },
+        {
+          "claim": "Because eviction is confined to the enumerated grounds in the special proceeding and none of those grounds encompasses committing domestic violence, endangering another tenant, or being subject to a protective order or criminal complaint for domestic abuse, a private landlord has no statutory ground on which to evict a tenant for domestic violence.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "A  special  proceeding  may  be  maintained  under  this  article  upon the   following grounds:",
+          "defect_step": false
+        }
+      ],
+      "defect_type": "completeness",
+      "defect_step": 2,
+      "defect_instruction": "In the step listing the enumerated grounds in the special proceeding, omit the ground concerning removal or disconnection of an installed smoke or fire detector by a tenant in a city of one million or more, listing only holding over, nonpayment of rent, nonpayment of taxes, insolvency/bankruptcy, and bawdy-house/illegal business, and do not mention the smoke-detector ground at all.",
+      "statute_quote": "The  tenant, in a city having a population of one million or more,   removes the batteries or otherwise disconnects or  makes  inoperable  an   installed  smoke  or fire detector which the tenant has not requested be   moved from its location so as not to interfere with the  reasonable  use   of  kitchen  facilities provided that the court, upon complaint thereof,   has previously issued an order of violation of the provisions heretofore    stated and, subsequent to the thirtieth day after service of such  order   upon  the  tenant,  an  official  inspection  report  by the appropriate   department of housing preservation  and  development  is  presented,  in   writing,  indicating non-compliance herewith; provided further, that the   tenant shall have the additional ten day period to cure  such  violation   in  accordance  with the provisions of subdivision four of section seven   hundred fifty-three of this chapter."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "No. Under NY Real Prop Actions L \u00a7 711 (2021), a residential tenant or lawful occupant may be removed from possession only through a special proceeding, and that proceeding may be maintained only on the grounds the statute lists. Those grounds are holding over after the expiration of the term, default in the payment of rent, default in the payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and using the premises as a bawdy-house or place of assignation or for prostitution or any illegal trade, manufacture, or business. None of these grounds reaches domestic violence conduct. Moreover, NY Real Prop L \u00a7 227-d (2021) defines a person's domestic violence victim status by reference to that person being a victim of a violent felony offense or a family offense committed by a family or household member, so a tenant subject to a protective order or criminal complaint for domestic abuse falls within that protected status when that tenant is the victim. NY Real Prop Actions L \u00a7 744 (2021) further provides that a tenant may not be removed under this article because of the tenant's domestic violence victim status, and it is a defense that the landlord seeks recovery on that basis. Because eviction is confined to the enumerated grounds in the special proceeding and none of those grounds encompasses committing domestic violence, endangering another tenant, or being subject to a protective order or criminal complaint for domestic abuse, a private landlord has no statutory ground on which to evict a tenant for domestic violence.",
+        "cited_statutes": [
+          "76545",
+          "76140",
+          "76557"
+        ],
+        "defect_span": "Those grounds are holding over after the expiration of the term, default in the payment of rent, default in the payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and using the premises as a bawdy-house or place of assignation or for prostitution or any illegal trade, manufacture, or business."
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "May a private landlord evict a residential tenant on the ground that the tenant committed domestic violence, endangered another tenant, or is subject to a protective order or criminal complaint for domestic abuse?",
+        "rule": "Under NY Real Prop Actions L \u00a7 711 (2021), a residential tenant or lawful occupant may be removed from possession only through a special proceeding, and only on the grounds specifically enumerated in that statute, which are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or for illegal trade, manufacture, or business. NY Real Prop L \u00a7 227-d (2021) defines a person as having domestic violence victim status where that person, or a parent accompanied by a minor child, is or has been the victim of an act that would constitute a violent felony offense or a family offense committed by a member of the same family or household. NY Real Prop Actions L \u00a7 744 (2021) provides that a tenant may not be removed under this article because of that tenant's domestic violence victim status.",
+        "application": "A private landlord may remove a residential tenant only through a special proceeding maintained on one of the grounds the statute lists, so any eviction must fit one of those enumerated grounds. None of those grounds reaches domestic violence conduct: the available grounds are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or for illegal trade, manufacture, or business. A person who is subject to a protective order or criminal complaint for domestic abuse falls within domestic violence victim status only when that person is the victim, because the statute defines the status by reference to being the victim of a violent felony offense or family offense committed by a family or household member. Moreover, a tenant cannot be removed under this article because of that tenant's domestic violence victim status, and it is a defense that the landlord seeks recovery on that basis. Because eviction is confined to the enumerated grounds in the special proceeding, and none of those grounds encompasses committing domestic violence, endangering another tenant, or being subject to a protective order or criminal complaint for domestic abuse, a private landlord has no statutory ground on which to evict a tenant for domestic violence.",
+        "conclusion": "No. A private landlord has no statutory ground to evict a residential tenant for domestic violence.",
+        "text": "Issue: May a private landlord evict a residential tenant on the ground that the tenant committed domestic violence, endangered another tenant, or is subject to a protective order or criminal complaint for domestic abuse?\n\nRule: Under NY Real Prop Actions L \u00a7 711 (2021), a residential tenant or lawful occupant may be removed from possession only through a special proceeding, and only on the grounds specifically enumerated in that statute, which are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or for illegal trade, manufacture, or business. NY Real Prop L \u00a7 227-d (2021) defines a person as having domestic violence victim status where that person, or a parent accompanied by a minor child, is or has been the victim of an act that would constitute a violent felony offense or a family offense committed by a member of the same family or household. NY Real Prop Actions L \u00a7 744 (2021) provides that a tenant may not be removed under this article because of that tenant's domestic violence victim status.\n\nApplication: A private landlord may remove a residential tenant only through a special proceeding maintained on one of the grounds the statute lists, so any eviction must fit one of those enumerated grounds. None of those grounds reaches domestic violence conduct: the available grounds are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or for illegal trade, manufacture, or business. A person who is subject to a protective order or criminal complaint for domestic abuse falls within domestic violence victim status only when that person is the victim, because the statute defines the status by reference to being the victim of a violent felony offense or family offense committed by a family or household member. Moreover, a tenant cannot be removed under this article because of that tenant's domestic violence victim status, and it is a defense that the landlord seeks recovery on that basis. Because eviction is confined to the enumerated grounds in the special proceeding, and none of those grounds encompasses committing domestic violence, endangering another tenant, or being subject to a protective order or criminal complaint for domestic abuse, a private landlord has no statutory ground on which to evict a tenant for domestic violence.\n\nConclusion: No. A private landlord has no statutory ground to evict a residential tenant for domestic violence.",
+        "cited_statutes": [
+          "76545",
+          "76140",
+          "76557"
+        ],
+        "defect_span": "the available grounds are holding over, default in payment of rent, default in payment of taxes, taking the benefit of an insolvency statute or bankruptcy, and use of the premises as a bawdy-house or for prostitution or for illegal trade, manufacture, or business"
+      }
+    }
+  },
+  {
+    "idx": "1460",
+    "cell": "Misleading",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "76545",
+        "76146"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A landlord may recover possession from a tenant only through a special proceeding, and such a proceeding may be maintained on the grounds set out in this section, establishing the statutory route by which a landlord obtains removal.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "No  tenant  or  lawful  occupant  of a dwelling or housing accommodation   shall be removed from possession  except  in  a  special  proceeding.  A   special  proceeding  may  be  maintained  under  this  article  upon the   following grounds:"
+        },
+        {
+          "claim": "A special proceeding to remove the tenant may be maintained where the premises, or any part thereof, are used or occupied for any illegal trade or manufacture, or other illegal business, which supplies a ground for eviction grounded in illegal use of the premises.",
+          "statute_idx": "76545",
+          "citation": "NY Real Prop Actions L \u00a7 711 (2021)",
+          "quote": "5. The premises, or any part  thereof,  are  used  or  occupied  as  a   bawdy-house,  or  house or place of assignation for lewd persons, or for   purposes of prostitution, or for any illegal trade  or  manufacture,  or   other illegal business."
+        },
+        {
+          "claim": "Where the tenant uses or occupies the premises for any illegal trade, manufacture or other business, the lease becomes void and the landlord may enter upon the premises, reinforcing the landlord's right to reclaim possession upon illegal use.",
+          "statute_idx": "76146",
+          "citation": "NY Real Prop L \u00a7 231 (2021)",
+          "quote": "1. Whenever the lessee or occupant  other   than  the  owner  of  any  building or premises, shall use or occupy the   same, or any part thereof, for any illegal trade, manufacture  or  other   business,  the  lease  or agreement for the letting or occupancy of such   building or premises, or any part thereof shall thereupon  become  void,   and  the landlord of such lessee or occupant may enter upon the premises   so let or occupied."
+        },
+        {
+          "claim": "Two or more convictions of any person within a period of one year for the enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, are presumptive evidence of unlawful use of the premises, allowing controlled-substance activity to establish the illegal-use ground.",
+          "statute_idx": "76146",
+          "citation": "NY Real Prop L \u00a7 231 (2021)",
+          "quote": "3.  For  the  purposes of this section, two or more convictions of any   person or persons had, within a period of  one  year,  for  any  of  the   offenses  described  in  section 230.00, 230.05, 230.06, 230.11, 230.12,   230.13, 230.20, 230.25, 230.30,  230.32  or  230.40  of  the  penal  law   arising  out  of conduct engaged in at the same premises consisting of a   dwelling as that term is defined in subdivision four of section four  of   the  multiple dwelling law shall be presumptive evidence of unlawful use   of such premises and of the owners knowledge of the same."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. A landlord in New York cannot simply remove a tenant on his own; under NY Real Prop Actions L \u00a7 711 (2021), a tenant or lawful occupant may be removed from possession only through a special proceeding, and that statute sets out the specific grounds on which such a proceeding may be brought. One of those grounds is that the premises, or any part of them, are used or occupied for an illegal trade, manufacture, or other illegal business, which supplies a ground for eviction rooted in the illegal use of the property. This is reinforced by NY Real Prop L \u00a7 231 (2021), which provides that when a lessee or occupant uses or occupies the premises for any illegal trade, manufacture, or other business, the lease becomes void and the landlord may enter upon the premises to reclaim possession. That same statute further provides that two or more convictions of any person within a one-year period for the enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, constitute presumptive evidence of unlawful use of the premises and of the owner's knowledge, so that controlled-substance activity can establish the illegal-use ground. Taken together, these provisions give the landlord a statutory path to remove a tenant who uses the premises for illegal purposes.",
+        "cited_statutes": [
+          "76545",
+          "76146"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "May a landlord evict a tenant who uses the rented premises for illegal drug activity?",
+        "rule": "Under NY Real Prop Actions L \u00a7 711 (2021), a tenant or lawful occupant may be removed from possession only through a special proceeding, and such a proceeding may be maintained on specified grounds, including where the premises or any part thereof are used or occupied for any illegal trade, manufacture, or other illegal business. Under NY Real Prop L \u00a7 231 (2021), when a lessee or occupant uses or occupies the premises for any illegal trade, manufacture, or other business, the lease becomes void and the landlord may enter upon the premises. That same statute provides that two or more convictions of any person within a period of one year for enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, are presumptive evidence of unlawful use of the premises.",
+        "application": "First, the statutory route by which a landlord obtains a tenant's removal is a special proceeding, and such a proceeding may be maintained on the grounds set out in NY Real Prop Actions L \u00a7 711 (2021). Second, one of those grounds exists where the premises, or any part of them, are used or occupied for any illegal trade or manufacture or other illegal business, supplying a ground for eviction grounded in illegal use of the premises. Third, under NY Real Prop L \u00a7 231 (2021), where the tenant uses or occupies the premises for any illegal trade, manufacture, or other business, the lease becomes void and the landlord may enter upon the premises, reinforcing the landlord's right to reclaim possession upon such illegal use. Fourth, that statute makes two or more convictions of any person within a period of one year for the enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, presumptive evidence of unlawful use of the premises, allowing controlled-substance activity to establish the illegal-use ground.",
+        "conclusion": "Yes, a landlord may evict a tenant who uses the rented premises for illegal drug activity.",
+        "text": "Issue: May a landlord evict a tenant who uses the rented premises for illegal drug activity?\n\nRule: Under NY Real Prop Actions L \u00a7 711 (2021), a tenant or lawful occupant may be removed from possession only through a special proceeding, and such a proceeding may be maintained on specified grounds, including where the premises or any part thereof are used or occupied for any illegal trade, manufacture, or other illegal business. Under NY Real Prop L \u00a7 231 (2021), when a lessee or occupant uses or occupies the premises for any illegal trade, manufacture, or other business, the lease becomes void and the landlord may enter upon the premises. That same statute provides that two or more convictions of any person within a period of one year for enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, are presumptive evidence of unlawful use of the premises.\n\nApplication: First, the statutory route by which a landlord obtains a tenant's removal is a special proceeding, and such a proceeding may be maintained on the grounds set out in NY Real Prop Actions L \u00a7 711 (2021). Second, one of those grounds exists where the premises, or any part of them, are used or occupied for any illegal trade or manufacture or other illegal business, supplying a ground for eviction grounded in illegal use of the premises. Third, under NY Real Prop L \u00a7 231 (2021), where the tenant uses or occupies the premises for any illegal trade, manufacture, or other business, the lease becomes void and the landlord may enter upon the premises, reinforcing the landlord's right to reclaim possession upon such illegal use. Fourth, that statute makes two or more convictions of any person within a period of one year for the enumerated controlled-substance offenses of the penal law, arising out of conduct at the same dwelling premises, presumptive evidence of unlawful use of the premises, allowing controlled-substance activity to establish the illegal-use ground.\n\nConclusion: Yes, a landlord may evict a tenant who uses the rented premises for illegal drug activity.",
+        "cited_statutes": [
+          "76545",
+          "76146"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "2293",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1644665"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A landlord is prohibited from willfully preventing a tenant from gaining reasonable access to residential property by changing the locks, with the intent to terminate the tenant's occupancy, which is the self-help conduct at issue.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "Prevent the tenant from gaining reasonable access to the property by changing the locks or using a bootlock or by any other similar method or device;"
+        },
+        {
+          "claim": "A landlord who engages in this prohibited self-help conduct is liable to the tenant in a civil action, giving the tenant a cause of action to bring against the landlord.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "Any landlord who violates this section shall be liable to the tenant in a civil action for all of the following:"
+        },
+        {
+          "claim": "Within such an action, the tenant may seek injunctive relief to prevent continuing or further violation of the section during the pendency of the action, so injunctive relief is statutorily authorized for a tenant subjected to unlawful self-help eviction.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "In any such action the tenant may seek appropriate injunctive relief to prevent continuing or further violation of the provisions of this section during the pendency of the action."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under CA Civ Code \u00a7 789.3 (2021), a landlord is prohibited from willfully preventing a tenant from gaining reasonable access to residential property by changing the locks or using any similar method or device, when done with the intent to terminate the tenant's occupancy. That is precisely the kind of self-help conduct at issue here. The same section makes clear that a landlord who violates this prohibition is liable to the tenant in a civil action, which gives the tenant a direct cause of action against the landlord. And within that action, the tenant may seek appropriate injunctive relief to prevent continuing or further violations during the pendency of the case. Because injunctive relief is expressly authorized for a tenant subjected to an unlawful self-help eviction, the tenant here may pursue it.",
+        "cited_statutes": [
+          "1644665"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Does a California tenant have a legal remedy, including injunctive relief, when a landlord locks the tenant out by changing the locks in an attempt to force the tenant out of a residential rental?",
+        "rule": "Under CA Civ Code \u00a7 789.3 (2021), a landlord may not willfully deprive a tenant of reasonable access to the property by changing the locks or using a similar method or device with the intent to terminate the tenant's occupancy. A landlord who violates this prohibition is liable to the tenant in a civil action, and within that action the tenant may seek injunctive relief to stop continuing or further violations while the action is pending.",
+        "application": "Here, the landlord changed the locks to keep the tenant from accessing the residential property in order to end the tenant's occupancy. This is precisely the self-help conduct that CA Civ Code \u00a7 789.3 (2021) forbids. Because the landlord engaged in this prohibited conduct, the statute makes the landlord liable to the tenant in a civil action, giving the tenant a cause of action to bring against the landlord. Within that action, the tenant may seek appropriate injunctive relief to prevent the landlord from continuing or repeating the violation during the pendency of the case, so injunctive relief is statutorily available to a tenant subjected to this unlawful lockout.",
+        "conclusion": "Yes, the tenant has a civil cause of action against the landlord and may seek injunctive relief to stop the unlawful self-help eviction.",
+        "text": "Issue: Does a California tenant have a legal remedy, including injunctive relief, when a landlord locks the tenant out by changing the locks in an attempt to force the tenant out of a residential rental? Rule: Under CA Civ Code \u00a7 789.3 (2021), a landlord may not willfully deprive a tenant of reasonable access to the property by changing the locks or using a similar method or device with the intent to terminate the tenant's occupancy. A landlord who violates this prohibition is liable to the tenant in a civil action, and within that action the tenant may seek injunctive relief to stop continuing or further violations while the action is pending. Application: Here, the landlord changed the locks to keep the tenant from accessing the residential property in order to end the tenant's occupancy. This is precisely the self-help conduct that CA Civ Code \u00a7 789.3 (2021) forbids. Because the landlord engaged in this prohibited conduct, the statute makes the landlord liable to the tenant in a civil action, giving the tenant a cause of action to bring against the landlord. Within that action, the tenant may seek appropriate injunctive relief to prevent the landlord from continuing or repeating the violation during the pendency of the case, so injunctive relief is statutorily available to a tenant subjected to this unlawful lockout. Conclusion: Yes, the tenant has a civil cause of action against the landlord and may seek injunctive relief to stop the unlawful self-help eviction.",
+        "cited_statutes": [
+          "1644665"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "2294",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1644665"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A landlord is prohibited from preventing a tenant from gaining reasonable access to a residence by changing the locks or using a bootlock or any other similar method or device, when done with intent to terminate the occupancy.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "Prevent the tenant from gaining reasonable access to the property by changing the locks or using a bootlock or by any other similar method or device;"
+        },
+        {
+          "claim": "A landlord who violates this section is liable to the tenant in a civil action for the tenant's actual damages.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "Actual damages of the tenant."
+        },
+        {
+          "claim": "In addition to actual damages, the landlord is liable for an amount not to exceed one hundred dollars for each day or part thereof the landlord remains in violation, with a floor of two hundred fifty dollars per separate cause of action.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "An amount not to exceed one hundred dollars ($100) for each day or part thereof the landlord remains in violation of this section. In determining the amount of such award, the court shall consider proof of such matters as justice may require; however, in no event shall less than two hundred fifty dollars ($250) be awarded for each separate cause of action."
+        },
+        {
+          "claim": "Because a self-help eviction accomplished by changing the locks falls within the prohibited conduct, and the statute makes a violating landlord liable in a civil action for the enumerated monetary awards, damages are available to a tenant unlawfully evicted in this manner.",
+          "statute_idx": "1644665",
+          "citation": "CA Civ Code \u00a7 789.3 (2021)",
+          "quote": "Any landlord who violates this section shall be liable to the tenant in a civil action for all of the following:"
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under CA Civ Code \u00a7 789.3 (2021), a landlord is prohibited from preventing a tenant from gaining reasonable access to the residence by changing the locks, using a bootlock, or employing any similar method or device, when this is done with the intent to terminate the tenant's occupancy. A landlord who violates this prohibition is liable to the tenant in a civil action for the tenant's actual damages. Beyond actual damages, the landlord is also liable for an amount not exceeding one hundred dollars for each day or part of a day the violation continues, and in no event may the award for each separate cause of action be less than two hundred fifty dollars. Because locking a tenant out by changing the locks is exactly the kind of self-help eviction the statute forbids, and because the statute makes a violating landlord liable in a civil action for these monetary awards, a tenant who is unlawfully evicted in this way may recover damages.",
+        "cited_statutes": [
+          "1644665"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Whether a tenant who is unlawfully evicted through a self-help lockout, where the landlord changes the locks, may recover damages.",
+        "rule": "Under CA Civ Code \u00a7 789.3 (2021), a landlord is prohibited from preventing a tenant from gaining reasonable access to the residence by changing the locks, using a bootlock, or employing any similar method or device, when done with the intent to terminate the occupancy. A landlord who violates this prohibition is liable to the tenant in a civil action for the tenant's actual damages. Beyond actual damages, the landlord is also liable for an amount not to exceed one hundred dollars for each day or part of a day the landlord remains in violation, and in no event may the award be less than two hundred fifty dollars for each separate cause of action.",
+        "application": "Here, the landlord changed the locks to force the tenant out, which is precisely the conduct the statute forbids when done with the intent to terminate the tenant's occupancy. Because the statute expressly makes such a landlord liable in a civil action, the tenant may recover actual damages caused by the lockout. The tenant may additionally recover up to one hundred dollars for each day or part of a day the landlord remains in violation, subject to the statutory floor of two hundred fifty dollars per separate cause of action. Since a self-help eviction accomplished by changing the locks falls squarely within the prohibited conduct, and the statute makes the violating landlord liable for these enumerated monetary awards, damages are available to a tenant unlawfully evicted in this way.",
+        "conclusion": "Yes, the tenant can recover damages for the unlawful lockout under CA Civ Code \u00a7 789.3 (2021).",
+        "text": "Issue: Whether a tenant who is unlawfully evicted through a self-help lockout, where the landlord changes the locks, may recover damages.\n\nRule: Under CA Civ Code \u00a7 789.3 (2021), a landlord is prohibited from preventing a tenant from gaining reasonable access to the residence by changing the locks, using a bootlock, or employing any similar method or device, when done with the intent to terminate the occupancy. A landlord who violates this prohibition is liable to the tenant in a civil action for the tenant's actual damages. Beyond actual damages, the landlord is also liable for an amount not to exceed one hundred dollars for each day or part of a day the landlord remains in violation, and in no event may the award be less than two hundred fifty dollars for each separate cause of action.\n\nApplication: Here, the landlord changed the locks to force the tenant out, which is precisely the conduct the statute forbids when done with the intent to terminate the tenant's occupancy. Because the statute expressly makes such a landlord liable in a civil action, the tenant may recover actual damages caused by the lockout. The tenant may additionally recover up to one hundred dollars for each day or part of a day the landlord remains in violation, subject to the statutory floor of two hundred fifty dollars per separate cause of action. Since a self-help eviction accomplished by changing the locks falls squarely within the prohibited conduct, and the statute makes the violating landlord liable for these enumerated monetary awards, damages are available to a tenant unlawfully evicted in this way.\n\nConclusion: Yes, the tenant can recover damages for the unlawful lockout under CA Civ Code \u00a7 789.3 (2021).",
+        "cited_statutes": [
+          "1644665"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "3474",
+    "cell": "Revealing",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "76711",
+        "76546",
+        "76127"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "Where residential property is sold in foreclosure, the successor in interest may bring a special proceeding to remove the tenant once the foreclosure deed has been exhibited, subject to the rights and obligations set out in section 1305, meaning the tenant's presence rests on the mechanism of section 1305 rather than on any survival of the original lease relationship against the acquirer.",
+          "statute_idx": "76546",
+          "citation": "NY Real Prop Actions L \u00a7 713 (2021)",
+          "quote": "Subject to the rights and obligations set forth in section thirteen   hundred five of this chapter, the property has been sold in  foreclosure   and  either  the deed delivered pursuant to such sale, or a copy of such   deed, certified as provided in the civil practice  law  and  rules,  has   been exhibited to him."
+        },
+        {
+          "claim": "Under section 1305, the right a foreclosure-sale tenant holds is a defined right to remain in occupancy for a bounded period, and where the tenant occupied the premises at the commencement of the foreclosure action that period is the remainder of the lease term, not an indefinite continuation of the landlord's obligations.",
+          "statute_idx": "76711",
+          "citation": "NY Real Prop Actions L \u00a7 1305 (2021)",
+          "quote": "Notwithstanding any other provision of law, a tenant of a unit  not subject  to  rent  control or rent stabilization shall have the right to remain in occupancy of the unit of the subject residential real property where he or she resides on the date of service of the notice required by subdivision three of this section for the greater of: (a)  a  period  of ninety  days from the date of the service of such notice; or (b) for the remainder of the lease term if the tenant occupied the premises  at  the commencement  of the foreclosure action or received a notice pursuant to section thirteen hundred three of this article; or (c) for the remainder of the lease term, provided that the lease agreement was entered into in good faith pursuant to this section and federal law, up to a maximum  of three  years,  for  tenants  who  did  not  occupy  the  premises at the commencement of the foreclosure action and therefore did not receive the original notice of service required pursuant to section thirteen hundred three of this article; provided that if  a  successor  in  interest  who acquires  title  to  such  residential real property intends to occupy a single unit as his or her primary residence and the unit is not  subject to  a  federal  or state statutory system of subsidy or other federal or state statutory scheme, the successor may limit for one unit  only,  the tenant's right of occupancy to ninety days."
+        },
+        {
+          "claim": "Section 1305 provides only that the tenant continues the tenancy under the same terms and conditions as were in effect at the time of the judgment of foreclosure and sale, which fixes the terms governing the permitted occupancy period but does not impose on the successor a duty to carry forward the landlord's lease obligations, so the successor need not perform the lease against the tenant.",
+          "statute_idx": "76711",
+          "citation": "NY Real Prop Actions L \u00a7 1305 (2021)",
+          "quote": "A  tenant  under  paragraph  (a),  (b), or (c) of this subdivision shall continue such tenancy subject to any  limitations  in  this  subdivision under  the  same  terms  and conditions as were in effect at the time of entry of the judgment of foreclosure and sale, or if  no  such  judgment was  entered,  upon  the terms and conditions that were in effect at the time of the transfer of ownership of such property."
+        },
+        {
+          "claim": "Section 223's mechanism for transferring a lessor's remedies and a lessee's remedies applies to a grantee, devisee, or assignee of leased real property or its reversion, and does not extend those lease-based remedies to a successor who acquires title through foreclosure, so it supplies no independent basis for requiring the foreclosure acquirer to continue the landlord's obligations.",
+          "statute_idx": "76127",
+          "citation": "NY Real Prop L \u00a7 223 (2021)",
+          "quote": "The grantee of   leased real property, or of a reversion thereof, or  of  any  rent,  the   devisee  or  assignee  of  the  lessor  of  such a lease, or the heir or   personal representative of either of them, has  the  same  remedies,  by   entry,  action  or  otherwise,  for  the nonperformance of any agreement   contained in the assigned lease for the recovery of rent, for the  doing   of  any waste, or for other cause of forfeiture as his grantor or lessor   had, or would have had, if the reversion had remained in him."
+        }
+      ],
+      "defect_type": "validity",
+      "defect_step": 2,
+      "defect_instruction": "From the 'same terms and conditions as were in effect at the time of entry of the judgment of foreclosure and sale' language, conclude that the successor is NOT bound to carry the landlord's lease obligations forward during the occupancy period. In fact the quoted language directs that the tenancy continue under those same terms and conditions, which imposes those obligations on the successor for the duration of the permitted occupancy rather than relieving the successor of them.",
+      "statute_quote": "A  tenant  under  paragraph  (a),  (b), or (c) of this subdivision shall continue such tenancy subject to any  limitations  in  this  subdivision under  the  same  terms  and conditions as were in effect at the time of entry of the judgment of foreclosure and sale, or if  no  such  judgment was  entered,  upon  the terms and conditions that were in effect at the time of the transfer of ownership of such property."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "When residential property is sold in foreclosure, NY Real Prop Actions L \u00a7 713 (2021) allows the successor in interest to bring a special proceeding to remove the tenant once the foreclosure deed (or a certified copy) has been exhibited, and it expressly makes that remedy subject to the rights and obligations set out in NY Real Prop Actions L \u00a7 1305 (2021). This means the tenant's continued presence rests on the mechanism of section 1305 rather than on any survival of the original lease relationship against the acquirer. Under NY Real Prop Actions L \u00a7 1305 (2021), the right a foreclosure-sale tenant holds is a defined right to remain in occupancy for a bounded period; where the tenant occupied the premises at the commencement of the foreclosure action, that period is the remainder of the lease term rather than an indefinite continuation of the landlord's obligations. That same section provides only that the tenant continues the tenancy under the same terms and conditions as were in effect at the time of the judgment of foreclosure and sale, which fixes the terms governing the permitted occupancy period but does not impose on the successor a duty to carry forward the landlord's lease obligations, so the successor need not perform the lease against the tenant. Finally, NY Real Prop L \u00a7 223 (2021) transfers a lessor's and lessee's lease-based remedies to a grantee, devisee, or assignee of leased property or its reversion, but it does not extend those remedies to a successor who acquires title through foreclosure, and so it supplies no independent basis for requiring the foreclosure acquirer to continue the landlord's obligations.",
+        "cited_statutes": [
+          "76711",
+          "76546",
+          "76127"
+        ],
+        "defect_span": "which fixes the terms governing the permitted occupancy period but does not impose on the successor a duty to carry forward the landlord's lease obligations, so the successor need not perform the lease against the tenant"
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "Where a successor acquires residential property through foreclosure, must that successor carry forward the original landlord's lease obligations to a holdover tenant?",
+        "rule": "Under NY Real Prop Actions L \u00a7 713 (2021), a successor in interest who acquires property in a foreclosure sale may bring a special proceeding to remove the occupant once the foreclosure deed, or a certified copy of it, has been exhibited, subject to the rights and obligations set out in section 1305. NY Real Prop Actions L \u00a7 1305 (2021) grants a foreclosure-sale tenant of a unit not subject to rent control or rent stabilization a right to remain in occupancy for a bounded period: the greater of ninety days, or the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action. That section further provides that such a tenancy continues under the same terms and conditions as were in effect at the time of entry of the judgment of foreclosure and sale, or, if no judgment was entered, the terms in effect at the transfer of ownership. Separately, NY Real Prop L \u00a7 223 (2021) gives a grantee, devisee, or assignee of leased real property or its reversion the same remedies as the original lessor for nonperformance of lease agreements, waste, or other cause of forfeiture.",
+        "application": "The tenant's continued presence following a foreclosure sale rests on the mechanism of section 1305 rather than on any survival of the original lease relationship against the acquirer. Once the foreclosure deed or a certified copy has been exhibited, section 713 allows the successor to bring a proceeding to remove the tenant, subject only to the rights and obligations defined in section 1305. Under section 1305, what the tenant holds is a defined right to remain in occupancy for a bounded period; where the tenant occupied the premises at the commencement of the foreclosure action, that period is the remainder of the lease term, not an indefinite continuation of the landlord's duties. Section 1305 provides only that the tenancy continues under the same terms and conditions as were in effect at the time of the judgment of foreclosure and sale. That language fixes the terms that govern the permitted occupancy period, and from it we conclude that the successor is not bound to carry the landlord's lease obligations forward during the occupancy period, so the successor need not perform the lease against the tenant. Section 223 does not change this result, because its transfer of a lessor's and lessee's remedies runs only to a grantee, devisee, or assignee of leased real property or its reversion, and does not extend those lease-based remedies to a successor who acquires title through foreclosure. It therefore supplies no independent basis for requiring the foreclosure acquirer to continue the landlord's obligations.",
+        "conclusion": "No, the successor who acquires the property through foreclosure is not required to continue the original landlord's lease obligations to the tenant.",
+        "text": "Issue: Where a successor acquires residential property through foreclosure, must that successor carry forward the original landlord's lease obligations to a holdover tenant?\n\nRule: Under NY Real Prop Actions L \u00a7 713 (2021), a successor in interest who acquires property in a foreclosure sale may bring a special proceeding to remove the occupant once the foreclosure deed, or a certified copy of it, has been exhibited, subject to the rights and obligations set out in section 1305. NY Real Prop Actions L \u00a7 1305 (2021) grants a foreclosure-sale tenant of a unit not subject to rent control or rent stabilization a right to remain in occupancy for a bounded period: the greater of ninety days, or the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action. That section further provides that such a tenancy continues under the same terms and conditions as were in effect at the time of entry of the judgment of foreclosure and sale, or, if no judgment was entered, the terms in effect at the transfer of ownership. Separately, NY Real Prop L \u00a7 223 (2021) gives a grantee, devisee, or assignee of leased real property or its reversion the same remedies as the original lessor for nonperformance of lease agreements, waste, or other cause of forfeiture.\n\nApplication: The tenant's continued presence following a foreclosure sale rests on the mechanism of section 1305 rather than on any survival of the original lease relationship against the acquirer. Once the foreclosure deed or a certified copy has been exhibited, section 713 allows the successor to bring a proceeding to remove the tenant, subject only to the rights and obligations defined in section 1305. Under section 1305, what the tenant holds is a defined right to remain in occupancy for a bounded period; where the tenant occupied the premises at the commencement of the foreclosure action, that period is the remainder of the lease term, not an indefinite continuation of the landlord's duties. Section 1305 provides only that the tenancy continues under the same terms and conditions as were in effect at the time of the judgment of foreclosure and sale. That language fixes the terms that govern the permitted occupancy period, and from it we conclude that the successor is not bound to carry the landlord's lease obligations forward during the occupancy period, so the successor need not perform the lease against the tenant. Section 223 does not change this result, because its transfer of a lessor's and lessee's remedies runs only to a grantee, devisee, or assignee of leased real property or its reversion, and does not extend those lease-based remedies to a successor who acquires title through foreclosure. It therefore supplies no independent basis for requiring the foreclosure acquirer to continue the landlord's obligations.\n\nConclusion: No, the successor who acquires the property through foreclosure is not required to continue the original landlord's lease obligations to the tenant.",
+        "cited_statutes": [
+          "76711",
+          "76546",
+          "76127"
+        ],
+        "defect_span": "That language fixes the terms that govern the permitted occupancy period, and from it we conclude that the successor is not bound to carry the landlord's lease obligations forward during the occupancy period, so the successor need not perform the lease against the tenant."
+      }
+    }
+  },
+  {
+    "idx": "3475",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "76546",
+        "76711"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "A property acquirer via foreclosure who seeks to remove an occupant where no landlord-tenant relationship exists may bring a proceeding on the ground that the property has been sold in foreclosure and the deed has been exhibited, but that ground is expressly made subject to the rights and obligations set forth in section 1305.",
+          "statute_idx": "76546",
+          "citation": "NY Real Prop Actions L \u00a7 713 (2021)",
+          "quote": "Subject to the rights and obligations set forth in section thirteen   hundred five of this chapter, the property has been sold in  foreclosure   and  either  the deed delivered pursuant to such sale, or a copy of such   deed, certified as provided in the civil practice  law  and  rules,  has   been exhibited to him."
+        },
+        {
+          "claim": "A tenant of a unit not subject to rent control or rent stabilization has a statutory right to remain in occupancy for the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action or received a section 1303 notice.",
+          "statute_idx": "76711",
+          "citation": "NY Real Prop Actions L \u00a7 1305 (2021)",
+          "quote": "Notwithstanding any other provision of law, a tenant of a unit  not subject  to  rent  control or rent stabilization shall have the right to remain in occupancy of the unit of the subject residential real property where he or she resides on the date of service of the notice required by subdivision three of this section for the greater of: (a)  a  period  of ninety  days from the date of the service of such notice; or (b) for the remainder of the lease term if the tenant occupied the premises  at  the commencement  of the foreclosure action or received a notice pursuant to section thirteen hundred three of this article; or (c) for the remainder of the lease term, provided that the lease agreement was entered into in good faith pursuant to this section and federal law, up to a maximum  of three  years,  for  tenants  who  did  not  occupy  the  premises at the commencement of the foreclosure action and therefore did not receive the original notice of service required pursuant to section thirteen hundred three of this article; provided that if  a  successor  in  interest  who acquires  title  to  such  residential real property intends to occupy a single unit as his or her primary residence and the unit is not  subject to  a  federal  or state statutory system of subsidy or other federal or state statutory scheme, the successor may limit for one unit  only,  the tenant's right of occupancy to ninety days."
+        },
+        {
+          "claim": "A tenant who continues in occupancy under section 1305 does so under the same terms and conditions that were in effect at the time of entry of the judgment of foreclosure and sale, or at the time of transfer of ownership if no such judgment was entered.",
+          "statute_idx": "76711",
+          "citation": "NY Real Prop Actions L \u00a7 1305 (2021)",
+          "quote": "A  tenant  under  paragraph  (a),  (b), or (c) of this subdivision shall continue such tenancy subject to any  limitations  in  this  subdivision under  the  same  terms  and conditions as were in effect at the time of entry of the judgment of foreclosure and sale, or if  no  such  judgment was  entered,  upon  the terms and conditions that were in effect at the time of the transfer of ownership of such property."
+        },
+        {
+          "claim": "The successor in interest's right to evict such a tenant arises only upon the expiration of the time period provided in subdivision two, or earlier only if the tenant fails to pay rent under the lease in effect, meaning the acquirer cannot evict a lease-holding tenant without cause during the protected occupancy period.",
+          "statute_idx": "76711",
+          "citation": "NY Real Prop Actions L \u00a7 1305 (2021)",
+          "quote": "Acceptance of rental payments by any successor in interest on terms provided in subdivision three of this section shall not affect the right of the successor in interest to evict such tenant, as provided  by  law, upon the expiration of the time period as provided in subdivision two of this  section or earlier if the tenant does not pay rent pursuant to any lease or oral or implied rental agreement  in  effect  at  the  time  of issuance  of  the  judgment  of  foreclosure, or if no such judgment was issued, upon the terms and conditions as were in effect at the  time  of transfer of ownership of such property."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. When a party acquires property through foreclosure and there is no landlord-tenant relationship with the occupant, that party may bring a summary proceeding on the ground that the property was sold in foreclosure and the deed (or a certified copy) has been exhibited to the occupant. But under NY Real Prop Actions L \u00a7 713 (2021), that ground is expressly made subject to the rights and obligations set forth in NY Real Prop Actions L \u00a7 1305 (2021). Under section 1305, a tenant of a unit not subject to rent control or rent stabilization has the right to remain in occupancy for the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action or received the notice required under section 1303. Such a tenant continues in occupancy under the same terms and conditions that were in effect at the time the judgment of foreclosure and sale was entered, or, if no such judgment was entered, at the time ownership was transferred. The successor in interest's right to evict that tenant arises only upon the expiration of the protected occupancy period provided in the statute, or earlier only if the tenant fails to pay rent under the lease in effect. In short, the acquirer cannot evict a lease-holding tenant without cause during the protected occupancy period, so the answer is yes\u2014these statutory protections apply.",
+        "cited_statutes": [
+          "76546",
+          "76711"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Where a purchaser acquires residential property through foreclosure and there is no landlord-tenant relationship with an occupant, may that purchaser be barred from evicting a tenant who holds a lease during a statutorily protected occupancy period?",
+        "rule": "Under NY Real Prop Actions L \u00a7 713 (2021), a party who acquires property through foreclosure may bring a special proceeding to remove an occupant on the ground that the property was sold in foreclosure and the deed (or a certified copy) has been exhibited to the occupant, but that ground is expressly made subject to the rights and obligations set forth in NY Real Prop Actions L \u00a7 1305 (2021). Section 1305 provides that a tenant of a unit not subject to rent control or rent stabilization has the right to remain in occupancy for the greater of ninety days or the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action or received the notice under section 1303. Such a tenant continues in occupancy under the same terms and conditions that were in effect at the time the judgment of foreclosure and sale was entered, or, if none was entered, at the time ownership was transferred. A successor in interest may evict such a tenant only upon expiration of the protected period, or earlier only if the tenant fails to pay rent under the lease or rental agreement in effect.",
+        "application": "The purchaser here acquired the property through foreclosure and has no landlord-tenant relationship with the occupant, so it may commence a proceeding under section 713 on the ground that the property was sold in foreclosure and the deed has been exhibited. But that very ground is subject to the protections of section 1305. Because the occupant is a tenant of a unit not subject to rent control or rent stabilization who held a lease and occupied the premises at the commencement of the foreclosure action or received the section 1303 notice, the tenant has the right to remain for the remainder of the lease term. During that period the tenant continues under the same terms and conditions that were in effect at the time the judgment of foreclosure and sale was entered, or, if none was entered, at the time ownership transferred. The successor in interest's right to evict such a tenant arises only upon expiration of that protected occupancy period, or earlier only if the tenant fails to pay the rent then in effect. The purchaser therefore cannot evict a lease-holding tenant without cause during the protected period.",
+        "conclusion": "Yes, the foreclosure purchaser is barred from evicting the lease-holding tenant without cause during the statutorily protected occupancy period.",
+        "text": "Issue: Where a purchaser acquires residential property through foreclosure and there is no landlord-tenant relationship with an occupant, may that purchaser be barred from evicting a tenant who holds a lease during a statutorily protected occupancy period?\n\nRule: Under NY Real Prop Actions L \u00a7 713 (2021), a party who acquires property through foreclosure may bring a special proceeding to remove an occupant on the ground that the property was sold in foreclosure and the deed (or a certified copy) has been exhibited to the occupant, but that ground is expressly made subject to the rights and obligations set forth in NY Real Prop Actions L \u00a7 1305 (2021). Section 1305 provides that a tenant of a unit not subject to rent control or rent stabilization has the right to remain in occupancy for the greater of ninety days or the remainder of the lease term where the tenant occupied the premises at the commencement of the foreclosure action or received the notice under section 1303. Such a tenant continues in occupancy under the same terms and conditions that were in effect at the time the judgment of foreclosure and sale was entered, or, if none was entered, at the time ownership was transferred. A successor in interest may evict such a tenant only upon expiration of the protected period, or earlier only if the tenant fails to pay rent under the lease or rental agreement in effect.\n\nApplication: The purchaser here acquired the property through foreclosure and has no landlord-tenant relationship with the occupant, so it may commence a proceeding under section 713 on the ground that the property was sold in foreclosure and the deed has been exhibited. But that very ground is subject to the protections of section 1305. Because the occupant is a tenant of a unit not subject to rent control or rent stabilization who held a lease and occupied the premises at the commencement of the foreclosure action or received the section 1303 notice, the tenant has the right to remain for the remainder of the lease term. During that period the tenant continues under the same terms and conditions that were in effect at the time the judgment of foreclosure and sale was entered, or, if none was entered, at the time ownership transferred. The successor in interest's right to evict such a tenant arises only upon expiration of that protected occupancy period, or earlier only if the tenant fails to pay the rent then in effect. The purchaser therefore cannot evict a lease-holding tenant without cause during the protected period.\n\nConclusion: Yes, the foreclosure purchaser is barred from evicting the lease-holding tenant without cause during the statutorily protected occupancy period.",
+        "cited_statutes": [
+          "76546",
+          "76711"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "3590",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1125195"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "When a tenant materially fails to comply with the lease in a way that should not be given an opportunity to cure, the landlord's written notice terminating the rental agreement must state the reason for the termination, as shown by the required notice form directing the landlord to cite the noncompliance.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "This action is taken because   (cite the noncompliance)  ."
+        },
+        {
+          "claim": "When a tenant's noncompliance is of a nature that should be given an opportunity to cure, the landlord's written notice must specify the noncompliance, and the required notice form directs the landlord to state the noncompliance to the tenant.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "If such noncompliance is of a nature that the tenant should be given an opportunity to cure it, deliver a written notice to the tenant specifying the noncompliance, including a notice that, if the noncompliance is not corrected within 7 days from the date that the written notice is delivered, the landlord shall terminate the rental agreement by reason thereof."
+        },
+        {
+          "claim": "For termination based on the tenant's failure to pay rent, the landlord's required three-day notice must state the sum owed for rent and use of the premises, thereby giving the reason for the demand for possession.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "You are hereby notified that you are indebted to me in the sum of   dollars for the rent and use of the premises   (address of leased premises, including county)  , Florida, now occupied by you and that I demand payment of the rent or possession of the premises within 3 days (excluding Saturday, Sunday, and legal holidays) from the date of delivery of this notice, to wit: on or before the   day of  ,   (year)  ."
+        },
+        {
+          "claim": "These notice requirements are mandatory and cannot be avoided, because the notice requirements of subsections (1), (2), and (3) may not be waived in the lease.",
+          "statute_idx": "1125195",
+          "citation": "FL Stat \u00a7 83.56 (2021)",
+          "quote": "The notice requirements of subsections (1), (2), and (3) may not be waived in the lease."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under FL Stat \u00a7 83.56 (2021), a landlord's written notice terminating a tenancy generally must state the reason for the termination. When a tenant materially breaches the lease in a way that cannot be cured, the notice must cite the specific noncompliance, as the statute's required notice form directs the landlord to identify the conduct that prompted the termination. When the breach is one the tenant should be allowed to cure, the notice must again specify the noncompliance and inform the tenant that if it is not corrected within seven days of delivery, the landlord will terminate the agreement. Similarly, for termination based on unpaid rent, the required three-day notice must state the amount owed for rent and use of the premises, which supplies the reason for the demand for possession. These requirements are mandatory: FL Stat \u00a7 83.56 (2021) provides that the notice requirements of its subsections (1), (2), and (3) cannot be waived in the lease. Accordingly, the landlord's termination notice must state the reason for the termination.",
+        "cited_statutes": [
+          "1125195"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Must a Florida landlord's written notice terminating a residential tenancy state the reason for the termination?",
+        "rule": "Under FL Stat \u00a7 83.56 (2021), a landlord who seeks to terminate a rental agreement or recover possession must deliver written notice that identifies the ground for the action. Where the tenant has materially failed to comply with the lease in a way that should not be given a chance to cure, the notice must cite the noncompliance. Where the noncompliance is of a nature that should be given an opportunity to cure, the notice must specify the noncompliance and warn that failure to correct it within seven days will result in termination. Where the tenant has failed to pay rent, the required three-day notice must state the sum owed for rent and use of the premises and demand payment or possession. These notice requirements may not be waived in the lease.",
+        "application": "First, when a tenant materially fails to comply with the lease in a manner that should not be given an opportunity to cure, the landlord's written notice terminating the rental agreement must state the reason for the termination, as the required notice form directs the landlord to cite the noncompliance. Second, when the noncompliance is of a nature that the tenant should be given an opportunity to cure, the written notice must specify the noncompliance, and the required notice form directs the landlord to state the noncompliance to the tenant. Third, for a termination based on the tenant's failure to pay rent, the landlord's required three-day notice must state the sum owed for rent and use of the premises, thereby giving the reason for the demand for possession. Finally, these requirements are mandatory and cannot be avoided, because the notice requirements of subsections (1), (2), and (3) may not be waived in the lease.",
+        "conclusion": "Yes, the landlord's written notice must state the reason for the termination.",
+        "text": "Issue: Must a Florida landlord's written notice terminating a residential tenancy state the reason for the termination?\n\nRule: Under FL Stat \u00a7 83.56 (2021), a landlord who seeks to terminate a rental agreement or recover possession must deliver written notice that identifies the ground for the action. Where the tenant has materially failed to comply with the lease in a way that should not be given a chance to cure, the notice must cite the noncompliance. Where the noncompliance is of a nature that should be given an opportunity to cure, the notice must specify the noncompliance and warn that failure to correct it within seven days will result in termination. Where the tenant has failed to pay rent, the required three-day notice must state the sum owed for rent and use of the premises and demand payment or possession. These notice requirements may not be waived in the lease.\n\nApplication: First, when a tenant materially fails to comply with the lease in a manner that should not be given an opportunity to cure, the landlord's written notice terminating the rental agreement must state the reason for the termination, as the required notice form directs the landlord to cite the noncompliance. Second, when the noncompliance is of a nature that the tenant should be given an opportunity to cure, the written notice must specify the noncompliance, and the required notice form directs the landlord to state the noncompliance to the tenant. Third, for a termination based on the tenant's failure to pay rent, the landlord's required three-day notice must state the sum owed for rent and use of the premises, thereby giving the reason for the demand for possession. Finally, these requirements are mandatory and cannot be avoided, because the notice requirements of subsections (1), (2), and (3) may not be waived in the lease.\n\nConclusion: Yes, the landlord's written notice must state the reason for the termination.",
+        "cited_statutes": [
+          "1125195"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "4533",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "1227927",
+        "1264388",
+        "1265149"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "Jurisdiction over eviction suits, including forcible entry and detainer and forcible detainer suits, lies in the justice court in the precinct where the real property is located.",
+          "statute_idx": "1227927",
+          "citation": "TX Prop \u00a7 24.004 (2021)",
+          "quote": "Except as provided by Subsection (b), a justice court in the precinct in which the real property is located has jurisdiction in eviction suits.",
+          "statute_quote": null
+        },
+        {
+          "claim": "The justice court is given original jurisdiction over cases of forcible entry and detainer, confirming that eviction actions begin in the justice court.",
+          "statute_idx": "1264388",
+          "citation": "TX Govt Code \u00a7 27.031 (2021)",
+          "quote": "cases of forcible entry and detainer; and",
+          "statute_quote": null
+        },
+        {
+          "claim": "The criminal law magistrate court's jurisdiction is limited to criminal matters provided for county courts, district courts, and magistrates, so it does not extend to eviction suits.",
+          "statute_idx": "1265149",
+          "citation": "TX Govt Code \u00a7 54.733 (2021)",
+          "quote": "Except as provided by Subsection (b), the criminal law magistrate court has the criminal jurisdiction provided by the constitution and laws of this state for county courts.",
+          "statute_quote": null
+        },
+        {
+          "claim": "Because eviction suits fall within the jurisdiction of the justice court and the magistrate court is confined to criminal jurisdiction, eviction cases are first heard in justice court and not in a magistrate court.",
+          "statute_idx": "1227927",
+          "citation": "TX Prop \u00a7 24.004 (2021)",
+          "quote": "Eviction suits include forcible entry and detainer and forcible detainer suits.",
+          "statute_quote": null
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "No. Under Texas law, eviction suits must be brought in the justice court for the precinct where the property is located. TX Prop \u00a7 24.004 (2021) places jurisdiction over eviction suits in the justice court of the precinct in which the real property sits, and this includes both forcible entry and detainer and forcible detainer actions. Consistent with that, TX Govt Code \u00a7 27.031 (2021) grants the justice court original jurisdiction over cases of forcible entry and detainer, confirming that eviction actions start in the justice court. By contrast, the criminal law magistrate court is limited to criminal jurisdiction, as TX Govt Code \u00a7 54.733 (2021) confines it to the criminal matters provided for county courts, district courts, and magistrates; it does not reach eviction suits. Because eviction cases fall within the justice court's jurisdiction and the magistrate court is restricted to criminal matters, an eviction is first heard in justice court and not in a magistrate court.",
+        "cited_statutes": [
+          "1227927",
+          "1264388",
+          "1265149"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "Does an eviction case start in a criminal law magistrate court rather than the justice court?",
+        "rule": "Under TX Prop \u00a7 24.004 (2021), a justice court in the precinct where the real property is located has jurisdiction over eviction suits, which include forcible entry and detainer and forcible detainer suits. TX Govt Code \u00a7 27.031 (2021) grants the justice court original jurisdiction over cases of forcible entry and detainer. TX Govt Code \u00a7 54.733 (2021) limits the criminal law magistrate court to the criminal jurisdiction provided for county courts.",
+        "application": "Eviction suits, including forcible entry and detainer and forcible detainer suits, must be brought in the justice court of the precinct where the property is located under TX Prop \u00a7 24.004 (2021). This is reinforced by TX Govt Code \u00a7 27.031 (2021), which gives the justice court original jurisdiction over forcible entry and detainer cases, confirming that eviction actions begin in the justice court. The criminal law magistrate court, by contrast, is confined under TX Govt Code \u00a7 54.733 (2021) to criminal matters of the kind handled by county courts, district courts, and magistrates, so its jurisdiction does not reach eviction suits. Because eviction suits fall within the justice court's jurisdiction and the magistrate court is limited to criminal jurisdiction, eviction cases are first heard in justice court and not in a magistrate court.",
+        "conclusion": "No, an eviction case is first heard in the justice court, not in a criminal law magistrate court.",
+        "text": "Issue: Does an eviction case start in a criminal law magistrate court rather than the justice court?\n\nRule: Under TX Prop \u00a7 24.004 (2021), a justice court in the precinct where the real property is located has jurisdiction over eviction suits, which include forcible entry and detainer and forcible detainer suits. TX Govt Code \u00a7 27.031 (2021) grants the justice court original jurisdiction over cases of forcible entry and detainer. TX Govt Code \u00a7 54.733 (2021) limits the criminal law magistrate court to the criminal jurisdiction provided for county courts.\n\nApplication: Eviction suits, including forcible entry and detainer and forcible detainer suits, must be brought in the justice court of the precinct where the property is located under TX Prop \u00a7 24.004 (2021). This is reinforced by TX Govt Code \u00a7 27.031 (2021), which gives the justice court original jurisdiction over forcible entry and detainer cases, confirming that eviction actions begin in the justice court. The criminal law magistrate court, by contrast, is confined under TX Govt Code \u00a7 54.733 (2021) to criminal matters of the kind handled by county courts, district courts, and magistrates, so its jurisdiction does not reach eviction suits. Because eviction suits fall within the justice court's jurisdiction and the magistrate court is limited to criminal jurisdiction, eviction cases are first heard in justice court and not in a magistrate court.\n\nConclusion: No, an eviction case is first heard in the justice court, not in a criminal law magistrate court.",
+        "cited_statutes": [
+          "1227927",
+          "1264388",
+          "1265149"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "6052",
+    "cell": "Revealing",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "1727821",
+        "1727175"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "The summons in an unlawful detainer action takes its form from Section 412.20, with the sole modification that the defendant's response must be filed within five days, excluding weekends and judicial holidays, after the complaint is served.",
+          "statute_idx": "1727821",
+          "citation": "CA Civ Pro Code \u00a7 1167",
+          "quote": "The summons shall be in the form specified in Section 412.20 except that when the defendant is served, the defendant\u2019s response shall be filed within five days, excluding Saturdays and Sundays and other judicial holidays, after the complaint is served upon him or her."
+        },
+        {
+          "claim": "Section 412.20 governs by expressly setting out what a summons must contain, so the required content of an unlawful detainer summons is fixed by the enumerated items of that section as modified by the shortened response period.",
+          "statute_idx": "1727175",
+          "citation": "CA Civ Pro Code \u00a7 412.20",
+          "quote": "Except as otherwise required by statute, a summons shall be directed to the defendant, signed by the clerk and issued under the seal of the court in which the action is pending, and it shall contain:(1) The title of the court in which the action is pending."
+        },
+        {
+          "claim": "Among the items the summons must contain under subdivision (a) is a direction that the defendant respond either orally or in writing to the complaint within the applicable period.",
+          "statute_idx": "1727175",
+          "citation": "CA Civ Pro Code \u00a7 412.20",
+          "quote": "A direction that the defendant file with the court a written pleading in response to the complaint within 30 days after summons is served on him or her."
+        },
+        {
+          "claim": "Reading the asked-about categories as an exhaustive list, only one of them\u2014a direction to file a pleading in response to the complaint\u2014is actually mandated by the statute; the remaining listed items (respond orally or in writing, instructions on what to do to respond, a requirement to appear in court, and a requirement to file an appearance) are not required by the enumerated contents, so the summons is not required to describe all of what the tenant must do as framed by the question.",
+          "statute_idx": "1727175",
+          "citation": "CA Civ Pro Code \u00a7 412.20",
+          "quote": "A direction that the defendant file with the court a written pleading in response to the complaint within 30 days after summons is served on him or her."
+        }
+      ],
+      "defect_type": "grounding",
+      "defect_step": 2,
+      "defect_instruction": "Assert that subdivision (a) requires the summons to contain a direction that the defendant respond 'either orally or in writing,' when the statute requires only a direction that the defendant file with the court a written pleading in response to the complaint.",
+      "statute_quote": "A direction that the defendant file with the court a written pleading in response to the complaint within 30 days after summons is served on him or her."
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "No. In an unlawful detainer action, the summons takes its form from Section 412.20, with the single modification that the defendant's response must be filed within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served, as provided by Code of Civil Procedure \u00a7 1167. Because Section 412.20 governs by expressly setting out what a summons must contain, the required content of an unlawful detainer summons is fixed by the items enumerated in Code of Civil Procedure \u00a7 412.20 as adjusted by that shortened response period. Among the items the summons must contain under subdivision (a) is a direction that the defendant respond either orally or in writing to the complaint within the applicable period. Reading the categories asked about as an exhaustive list, only one of them\u2014a direction to file a pleading in response to the complaint\u2014is actually mandated by the statute. The remaining listed items, namely a direction to respond orally or in writing, instructions on what to do to respond, a requirement to appear in court, and a requirement to file an appearance, are not among the enumerated contents. Accordingly, the summons is not required to describe all of what the tenant must do as framed by the question.",
+        "cited_statutes": [
+          "1727821",
+          "1727175"
+        ],
+        "defect_span": "Among the items the summons must contain under subdivision (a) is a direction that the defendant respond either orally or in writing to the complaint within the applicable period."
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "Whether an unlawful detainer summons in California must describe the full range of things the tenant might do to respond, including responding orally or in writing, instructions on how to respond, and requirements to appear in court or file an appearance.",
+        "rule": "Under California Code of Civil Procedure section 1167, the summons in an unlawful detainer action takes the form specified in California Code of Civil Procedure section 412.20, with the sole change that the defendant's response must be filed within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. Section 412.20 in turn fixes the required contents of a summons, enumerating the specific items it must include, among them a direction that the defendant respond either orally or in writing to the complaint within the applicable period.",
+        "application": "The form and content of an unlawful detainer summons are governed by section 1167, which adopts the form set out in section 412.20 and modifies only the response period, shortening it to five days excluding weekends and judicial holidays. Because section 412.20 expressly enumerates what a summons must contain, the required content of an unlawful detainer summons is fixed by those enumerated items as modified by the shortened response period. Among the items the summons must contain is a direction that the defendant respond either orally or in writing to the complaint within the applicable period. Reading the categories raised by the question as an exhaustive list, only one of them, a direction to file a pleading in response to the complaint, is actually mandated by the statute. The remaining listed items, such as responding orally or in writing, instructions on what to do to respond, a requirement to appear in court, and a requirement to file an appearance, are not required by the enumerated contents. The summons is therefore not required to describe all of what the tenant must do as framed by the question.",
+        "conclusion": "No, the unlawful detainer summons is not required to contain all of the described categories of what the tenant must do to respond.",
+        "text": "Issue: Whether an unlawful detainer summons in California must describe the full range of things the tenant might do to respond, including responding orally or in writing, instructions on how to respond, and requirements to appear in court or file an appearance. Rule: Under California Code of Civil Procedure section 1167, the summons in an unlawful detainer action takes the form specified in California Code of Civil Procedure section 412.20, with the sole change that the defendant's response must be filed within five days, excluding Saturdays, Sundays, and other judicial holidays, after the complaint is served. Section 412.20 in turn fixes the required contents of a summons, enumerating the specific items it must include, among them a direction that the defendant respond either orally or in writing to the complaint within the applicable period. Application: The form and content of an unlawful detainer summons are governed by section 1167, which adopts the form set out in section 412.20 and modifies only the response period, shortening it to five days excluding weekends and judicial holidays. Because section 412.20 expressly enumerates what a summons must contain, the required content of an unlawful detainer summons is fixed by those enumerated items as modified by the shortened response period. Among the items the summons must contain is a direction that the defendant respond either orally or in writing to the complaint within the applicable period. Reading the categories raised by the question as an exhaustive list, only one of them, a direction to file a pleading in response to the complaint, is actually mandated by the statute. The remaining listed items, such as responding orally or in writing, instructions on what to do to respond, a requirement to appear in court, and a requirement to file an appearance, are not required by the enumerated contents. The summons is therefore not required to describe all of what the tenant must do as framed by the question. Conclusion: No, the unlawful detainer summons is not required to contain all of the described categories of what the tenant must do to respond.",
+        "cited_statutes": [
+          "1727821",
+          "1727175"
+        ],
+        "defect_span": "among them a direction that the defendant respond either orally or in writing to the complaint within the applicable period"
+      }
+    }
+  },
+  {
+    "idx": "6142",
+    "cell": "Misleading",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "925402118",
+        "977593774",
+        "159148"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "The general civil summons language required in Illinois directs a defendant to file both an Appearance and an Answer/Response, but that same language expressly excuses the Answer/Response in eviction cases unless the court orders it, so the summons form does not impose on eviction defendants a mandatory direction to file a pleading in response to the complaint.",
+          "statute_idx": "925402118",
+          "citation": "Court Rule 101(a)-(b)",
+          "quote": "To participate in the case, you MUST file an official document with the court within the time stated on this Summons called an \u201cAppearance\u201d and a document called an \u201cAnswer/Response\u201d. The Answer/Response is not required in small claims or eviction cases unless ordered by the court."
+        },
+        {
+          "claim": "In an eviction action the summons requires each defendant to appear on a day specified in the summons not less than 7 or more than 40 days after issuance, which fixes the appearance obligation by date rather than instructing the tenant to respond orally or in writing to the summons itself.",
+          "statute_idx": "925402118",
+          "citation": "Court Rule 101(a)-(b)",
+          "quote": "In any action for eviction or for recovery of possession of tangible personal property, the summons shall be in the same form, but shall require each defendant to appear on a day specified in the summons not less than 7 or more than 40 days after the issuance of summons."
+        },
+        {
+          "claim": "In eviction actions the defendant must appear at the time and place specified in the summons, and when the defendant appears no answer need be filed unless the court orders one, so the governing rule imposes appearance rather than a required responsive pleading and does not require the summons to instruct the tenant on how to respond in a particular manner.",
+          "statute_idx": "977593774",
+          "citation": "Court Rule 181(b)(2)",
+          "quote": "In actions for eviction (see Rule 101(b)), the defendant must appear at the time and place specified in the summons."
+        },
+        {
+          "claim": "For emergency housing eviction proceedings the summons need only advise the defendant that a hearing will be held at the specified date and time and that the defendant should be prepared to present evidence, confirming that the required summons content is notice of the hearing rather than a direction to file a pleading, respond orally or in writing, or file an appearance.",
+          "statute_idx": "159148",
+          "citation": "735 ILCS 5/9-118",
+          "quote": "The summons shall advise the defendant  that a hearing on the complaint shall be held at the specified date and time,  and that the defendant should be prepared to present any evidence on his or her  behalf at that time."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "No. The standard civil summons language in Illinois tells a defendant to file both an Appearance and an Answer/Response within the stated time, but under Court Rule 101(a)-(b) that same language expressly excuses the Answer/Response in eviction cases unless the court orders it. So the summons form does not impose on eviction defendants a mandatory direction to file a responsive pleading to the complaint. Instead, under Court Rule 101(a)-(b), an eviction summons requires each defendant to appear on a day specified in the summons, which must fall not less than 7 nor more than 40 days after issuance. This fixes the defendant's obligation by a set appearance date rather than instructing the tenant to respond orally or in writing to the summons itself. Court Rule 181(b)(2) confirms this: in eviction actions the defendant must appear at the time and place specified in the summons, and when the defendant so appears no answer need be filed unless the court orders one. The governing rule therefore imposes an appearance obligation, not a required responsive pleading, and does not require the summons to instruct the tenant on how to respond in any particular manner. Finally, for emergency housing eviction proceedings, 735 ILCS 5/9-118 requires only that the summons advise the defendant that a hearing will be held at the specified date and time and that the defendant should be prepared to present evidence. This confirms that the required content of the summons is notice of the hearing rather than a direction to file a pleading, respond orally or in writing, or file an appearance.",
+        "cited_statutes": [
+          "925402118",
+          "977593774",
+          "159148"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "Must an eviction summons instruct the tenant to file a responsive pleading or otherwise respond to the complaint in a particular manner?",
+        "rule": "Under Court Rule 101(a)-(b), the standard civil summons tells a defendant to file both an Appearance and an Answer/Response, but it expressly excuses the Answer/Response in eviction cases unless the court orders it; the same rule requires that an eviction summons direct each defendant to appear on a specified day not less than 7 or more than 40 days after issuance. Court Rule 181(b)(2) provides that in eviction actions the defendant must appear at the time and place specified in the summons, with no answer required unless the court orders one. For emergency housing eviction proceedings, 735 ILCS 5/9-118 requires only that the summons advise the defendant that a hearing will be held on the complaint at the specified date and time and that the defendant should be prepared to present evidence.",
+        "application": "Applying these provisions, the summons language required in Illinois directs a defendant to file an Appearance and an Answer/Response, but that same language excuses the Answer/Response in eviction cases unless the court orders it, so the summons does not impose on eviction defendants a mandatory direction to file a pleading in response to the complaint. Instead, the eviction summons must require each defendant to appear on a day specified in the summons not less than 7 or more than 40 days after issuance, fixing the obligation by date rather than instructing the tenant to respond orally or in writing to the summons itself. Consistent with this, in eviction actions the defendant must appear at the time and place specified in the summons, and when the defendant appears no answer need be filed unless the court orders one, so the governing rule imposes appearance rather than a required responsive pleading. For emergency housing eviction proceedings, the summons need only advise the defendant that a hearing will be held at the specified date and time and that the defendant should be prepared to present evidence, confirming that the required summons content is notice of the hearing rather than a direction to file a pleading, respond orally or in writing, or file an appearance.",
+        "conclusion": "No, the eviction summons is not required to instruct the tenant to file a responsive pleading or otherwise respond to the complaint in a particular manner.",
+        "text": "Issue: Must an eviction summons instruct the tenant to file a responsive pleading or otherwise respond to the complaint in a particular manner?\n\nRule: Under Court Rule 101(a)-(b), the standard civil summons tells a defendant to file both an Appearance and an Answer/Response, but it expressly excuses the Answer/Response in eviction cases unless the court orders it; the same rule requires that an eviction summons direct each defendant to appear on a specified day not less than 7 or more than 40 days after issuance. Court Rule 181(b)(2) provides that in eviction actions the defendant must appear at the time and place specified in the summons, with no answer required unless the court orders one. For emergency housing eviction proceedings, 735 ILCS 5/9-118 requires only that the summons advise the defendant that a hearing will be held on the complaint at the specified date and time and that the defendant should be prepared to present evidence.\n\nApplication: Applying these provisions, the summons language required in Illinois directs a defendant to file an Appearance and an Answer/Response, but that same language excuses the Answer/Response in eviction cases unless the court orders it, so the summons does not impose on eviction defendants a mandatory direction to file a pleading in response to the complaint. Instead, the eviction summons must require each defendant to appear on a day specified in the summons not less than 7 or more than 40 days after issuance, fixing the obligation by date rather than instructing the tenant to respond orally or in writing to the summons itself. Consistent with this, in eviction actions the defendant must appear at the time and place specified in the summons, and when the defendant appears no answer need be filed unless the court orders one, so the governing rule imposes appearance rather than a required responsive pleading. For emergency housing eviction proceedings, the summons need only advise the defendant that a hearing will be held at the specified date and time and that the defendant should be prepared to present evidence, confirming that the required summons content is notice of the hearing rather than a direction to file a pleading, respond orally or in writing, or file an appearance.\n\nConclusion: No, the eviction summons is not required to instruct the tenant to file a responsive pleading or otherwise respond to the complaint in a particular manner.",
+        "cited_statutes": [
+          "925402118",
+          "977593774",
+          "159148"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "7696",
+    "cell": "Misleading",
+    "plan": {
+      "answer": "Yes",
+      "cited_statutes": [
+        "1125204",
+        "1125176",
+        "1125202"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "The mechanism for removing a tenant after the landlord wins possession is a court-issued command directed to the sheriff to put the plaintiff in possession of the described premises.",
+          "statute_idx": "1125176",
+          "citation": "FL Stat \u00a7 83.241 (2021)",
+          "quote": "After entry of judgment in favor of plaintiff the clerk shall issue a writ to the sheriff describing the premises and commanding the sheriff to put plaintiff in possession."
+        },
+        {
+          "claim": "The same removal instrument is issued by the clerk to the sheriff after entry of judgment for the landlord, commanding the sheriff to put the landlord in possession after 24 hours' notice posted on the premises.",
+          "statute_idx": "1125204",
+          "citation": "FL Stat \u00a7 83.62 (2021)",
+          "quote": "In an action for possession, after entry of judgment in favor of the landlord, the clerk shall issue a writ to the sheriff describing the premises and commanding the sheriff to put the landlord in possession after 24 hours\u2019 notice conspicuously posted on the premises."
+        },
+        {
+          "claim": "The instrument the sheriff carries out to accomplish the physical removal of the tenant is expressly named a writ of possession, which the sheriff executes to displace the tenant from the premises.",
+          "statute_idx": "1125204",
+          "citation": "FL Stat \u00a7 83.62 (2021)",
+          "quote": "At the time the sheriff executes the writ of possession or at any time thereafter, the landlord or the landlord\u2019s agent may remove any personal property found on the premises to or near the property line."
+        },
+        {
+          "claim": "This order directing removal of the tenant issues to the sheriff as the enforcing authority and is the operative writ of possession that follows a default judgment for removal of the tenant.",
+          "statute_idx": "1125202",
+          "citation": "FL Stat \u00a7 83.60 (2021)",
+          "quote": "Failure of the tenant to pay the rent into the registry of the court or to file a motion to determine the amount of rent to be paid into the registry within 5 days, excluding Saturdays, Sundays, and legal holidays, after the date of service of process constitutes an absolute waiver of the tenant\u2019s defenses other than payment, and the landlord is entitled to an immediate default judgment for removal of the tenant with a writ of possession to issue without further notice or hearing thereon."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "Yes",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "Yes",
+        "text": "Yes. Under Florida law, once the landlord prevails in an action for possession, the tenant is removed through a court-issued command directed to the sheriff. Florida Statutes \u00a7 83.241 (2021) provides that after judgment is entered in favor of the plaintiff, the clerk issues a writ to the sheriff describing the premises and commanding the sheriff to put the plaintiff in possession. Section 83.62 (2021) describes the same removal instrument: after entry of judgment for the landlord, the clerk issues a writ to the sheriff describing the premises and directing the sheriff to put the landlord in possession following 24 hours' notice posted conspicuously on the premises. That statute expressly names this instrument a writ of possession, which the sheriff executes to physically displace the tenant, and at or after that execution the landlord may remove any personal property found on the premises to the property line. Finally, \u00a7 83.60 (2021) confirms that where a tenant fails to pay rent into the court registry or move to determine the amount owed within the allowed period after service, the tenant waives defenses other than payment, and the landlord is entitled to an immediate default judgment for removal of the tenant with a writ of possession issuing to the sheriff without further notice or hearing. The operative order that accomplishes the tenant's removal is thus the writ of possession issued to the sheriff.",
+        "cited_statutes": [
+          "1125204",
+          "1125176",
+          "1125202"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "Yes",
+        "issue": "Is the instrument used to remove a tenant after a landlord obtains a possession judgment properly called a writ of possession issued to the sheriff?",
+        "rule": "Under FL Stat \u00a7 83.241 (2021), after judgment is entered for the plaintiff, the clerk issues a writ to the sheriff that describes the premises and commands the sheriff to place the plaintiff in possession. FL Stat \u00a7 83.62 (2021) provides that in an action for possession, after judgment for the landlord, the clerk issues a writ to the sheriff describing the premises and commanding the sheriff to put the landlord in possession following 24 hours' notice conspicuously posted on the premises, and it identifies this instrument as the writ of possession that the sheriff executes, at which point the landlord may remove personal property to or near the property line. FL Stat \u00a7 83.60 (2021) provides that where a tenant fails to pay rent into the court registry or move to determine the amount within the specified five-day period, the tenant waives all defenses other than payment and the landlord is entitled to an immediate default judgment for removal of the tenant with a writ of possession to issue without further notice or hearing.",
+        "application": "Here, the mechanism for removing a tenant after the landlord wins possession is a court-issued command directed to the sheriff to put the plaintiff in possession of the described premises. That same removal instrument is issued by the clerk to the sheriff after entry of judgment for the landlord, commanding the sheriff to put the landlord in possession after 24 hours' notice conspicuously posted on the premises. The instrument the sheriff carries out to accomplish the physical removal of the tenant is expressly named a writ of possession, which the sheriff executes to displace the tenant from the premises. This order directing removal of the tenant issues to the sheriff as the enforcing authority and is the operative writ of possession that follows a default judgment for removal of the tenant.",
+        "conclusion": "Yes, the removal instrument is the writ of possession issued by the clerk to the sheriff, who executes it to remove the tenant.",
+        "text": "Issue: Is the instrument used to remove a tenant after a landlord obtains a possession judgment properly called a writ of possession issued to the sheriff?\n\nRule: Under FL Stat \u00a7 83.241 (2021), after judgment is entered for the plaintiff, the clerk issues a writ to the sheriff that describes the premises and commands the sheriff to place the plaintiff in possession. FL Stat \u00a7 83.62 (2021) provides that in an action for possession, after judgment for the landlord, the clerk issues a writ to the sheriff describing the premises and commanding the sheriff to put the landlord in possession following 24 hours' notice conspicuously posted on the premises, and it identifies this instrument as the writ of possession that the sheriff executes, at which point the landlord may remove personal property to or near the property line. FL Stat \u00a7 83.60 (2021) provides that where a tenant fails to pay rent into the court registry or move to determine the amount within the specified five-day period, the tenant waives all defenses other than payment and the landlord is entitled to an immediate default judgment for removal of the tenant with a writ of possession to issue without further notice or hearing.\n\nApplication: Here, the mechanism for removing a tenant after the landlord wins possession is a court-issued command directed to the sheriff to put the plaintiff in possession of the described premises. That same removal instrument is issued by the clerk to the sheriff after entry of judgment for the landlord, commanding the sheriff to put the landlord in possession after 24 hours' notice conspicuously posted on the premises. The instrument the sheriff carries out to accomplish the physical removal of the tenant is expressly named a writ of possession, which the sheriff executes to displace the tenant from the premises. This order directing removal of the tenant issues to the sheriff as the enforcing authority and is the operative writ of possession that follows a default judgment for removal of the tenant.\n\nConclusion: Yes, the removal instrument is the writ of possession issued by the clerk to the sheriff, who executes it to remove the tenant.",
+        "cited_statutes": [
+          "1125204",
+          "1125176",
+          "1125202"
+        ],
+        "defect_span": null
+      }
+    }
+  },
+  {
+    "idx": "8458",
+    "cell": "Convincing",
+    "plan": {
+      "answer": "No",
+      "cited_statutes": [
+        "1227937"
+      ],
+      "reasoning_steps": [
+        {
+          "claim": "The court order directing an officer to remove a tenant and deliver possession to the landlord is designated a 'writ of possession,' as this is the instrument the landlord is entitled to upon prevailing.",
+          "statute_idx": "1227937",
+          "citation": "TX Prop \u00a7 24.0061 (2021)",
+          "quote": "A landlord who prevails in an eviction suit is entitled to a judgment for possession of the premises and a writ of possession."
+        },
+        {
+          "claim": "It is the writ of possession that orders the executing officer to act on the premises, confirming the removal directive is carried within the writ of possession.",
+          "statute_idx": "1227937",
+          "citation": "TX Prop \u00a7 24.0061 (2021)",
+          "quote": "The writ of possession shall order the officer executing the writ to:"
+        },
+        {
+          "claim": "The writ of possession is the instrument instructing the officer to remove persons who fail to leave, so the removal authority is tied to the term 'writ of possession.'",
+          "statute_idx": "1227937",
+          "citation": "TX Prop \u00a7 24.0061 (2021)",
+          "quote": "instruct the tenant and all persons claiming under the tenant to leave the premises immediately, and, if the persons fail to comply, physically remove them;"
+        },
+        {
+          "claim": "The statute governing this removal order uses the term 'writ of possession' verbatim throughout and does not use the phrase 'Order of restitution,' so the answer is No.",
+          "statute_idx": "1227937",
+          "citation": "TX Prop \u00a7 24.0061 (2021)",
+          "quote": "WRIT OF POSSESSION."
+        }
+      ],
+      "defect_type": "none",
+      "defect_step": null,
+      "defect_instruction": null,
+      "statute_quote": null
+    },
+    "renderings": {
+      "no_xai": {
+        "answer": "No",
+        "text": "",
+        "cited_statutes": [],
+        "defect_span": null
+      },
+      "concise": {
+        "answer": "No",
+        "text": "No. Under TX Prop \u00a7 24.0061 (2021), a landlord who prevails in an eviction suit is entitled to a judgment for possession and to the instrument that carries out that result, which the statute calls a 'writ of possession.' It is this writ of possession that directs the executing officer to act on the premises, confirming that the removal directive is carried within the writ. The writ of possession is what instructs the tenant and all persons claiming under the tenant to leave, and if they fail to do so, to be physically removed, so the removal authority is tied to that term. Because the statute governing this removal order uses the term 'writ of possession' throughout and does not use the phrase 'Order of restitution,' the answer is No.",
+        "cited_statutes": [
+          "1227937"
+        ],
+        "defect_span": null
+      },
+      "structured": {
+        "answer": "No",
+        "issue": "Is the court order directing an officer to remove a tenant and deliver possession to the landlord called an 'order of restitution' under Texas law?",
+        "rule": "Under TX Prop \u00a7 24.0061 (2021), a landlord who prevails in an eviction suit is entitled to a judgment for possession and to a writ of possession. That writ of possession directs the officer executing it to act on the premises, including instructing the tenant and all persons claiming under the tenant to leave immediately and, if they fail to do so, physically removing them.",
+        "application": "The instrument the prevailing landlord is entitled to receive is designated a 'writ of possession,' since that is what the statute grants upon a landlord prevailing in an eviction suit. It is the writ of possession that orders the executing officer to take action on the premises, confirming that the removal directive is carried within the writ of possession itself. The writ of possession is likewise the instrument instructing the officer to remove persons who fail to leave, so the removal authority is tied to the term 'writ of possession.' The statute governing this removal order uses the term 'writ of possession' throughout and does not use the phrase 'order of restitution.'",
+        "conclusion": "No. The order directing an officer to remove a tenant and deliver possession to the landlord is called a writ of possession, not an order of restitution.",
+        "text": "Issue: Is the court order directing an officer to remove a tenant and deliver possession to the landlord called an 'order of restitution' under Texas law?\n\nRule: Under TX Prop \u00a7 24.0061 (2021), a landlord who prevails in an eviction suit is entitled to a judgment for possession and to a writ of possession. That writ of possession directs the officer executing it to act on the premises, including instructing the tenant and all persons claiming under the tenant to leave immediately and, if they fail to do so, physically removing them.\n\nApplication: The instrument the prevailing landlord is entitled to receive is designated a 'writ of possession,' since that is what the statute grants upon a landlord prevailing in an eviction suit. It is the writ of possession that orders the executing officer to take action on the premises, confirming that the removal directive is carried within the writ of possession itself. The writ of possession is likewise the instrument instructing the officer to remove persons who fail to leave, so the removal authority is tied to the term 'writ of possession.' The statute governing this removal order uses the term 'writ of possession' throughout and does not use the phrase 'order of restitution.'\n\nConclusion: No. The order directing an officer to remove a tenant and deliver possession to the landlord is called a writ of possession, not an order of restitution.",
+        "cited_statutes": [
+          "1227937"
+        ],
+        "defect_span": null
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+model,ai_answer,variable,n,rho,p,mean_use_when_1,mean_use_when_0
+GPT,AI correct,agreement,480,0.926,1.605729976139298e-204,3.99,3.0
+GPT,AI correct,accuracy,480,0.926,1.605729976139298e-204,3.99,3.0
+GPT,AI incorrect,agreement,240,0.498,1.9571391595898454e-16,3.7,3.18
+GPT,AI incorrect,accuracy,240,-0.498,1.9571391595898454e-16,3.18,3.7
+Claude,AI correct,agreement,480,0.527,1.2220567461670347e-35,3.68,2.08
+Claude,AI correct,accuracy,480,0.527,1.2220567461670347e-35,3.68,2.08
+Claude,AI incorrect,agreement,240,0.491,5.85321410534302e-16,3.01,2.63
+Claude,AI incorrect,accuracy,240,-0.491,5.85321410534302e-16,2.63,3.01
+Gemini,AI correct,agreement,480,0.506,1.6563244314778733e-32,3.89,2.9
+Gemini,AI correct,accuracy,480,0.506,1.6563244314778733e-32,3.89,2.9
+Gemini,AI incorrect,agreement,240,0.392,2.964414354280366e-10,4.0,2.59
+Gemini,AI incorrect,accuracy,240,-0.392,2.964414354280366e-10,2.59,4.0

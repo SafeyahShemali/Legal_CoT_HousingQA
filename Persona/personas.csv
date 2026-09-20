@@ -1,0 +1,61 @@
+persona_id,rotation,years_licensed,statute_frequency,role,ai_use,home_state
+P001,B,6-10,Daily,In-house,Medium,Texas
+P002,C,<2,Regularly,Legal aid,Medium,Texas
+P003,B,2-5,Regularly,In-house,High,Texas
+P004,B,2-5,Regularly,Legal aid,Low,Florida
+P005,C,11-20,Daily,Private practice,Medium,California
+P006,A,11-20,Regularly,Private practice,Medium,Illinois
+P007,B,20+,Occasionally,Private practice,High,California
+P008,A,<2,Rarely,Government/judiciary,Low,California
+P009,C,6-10,Occasionally,In-house,Low,Illinois
+P010,C,<2,Occasionally,In-house,Medium,California
+P011,B,2-5,Occasionally,Private practice,Medium,California
+P012,A,6-10,Daily,Private practice,Low,Illinois
+P013,A,<2,Daily,In-house,Low,New York
+P014,A,2-5,Occasionally,Government/judiciary,High,Texas
+P015,B,6-10,Regularly,Private practice,Medium,Florida
+P016,C,6-10,Occasionally,Private practice,High,Florida
+P017,C,2-5,Daily,Private practice,Medium,New York
+P018,A,6-10,Occasionally,In-house,Low,California
+P019,C,11-20,Occasionally,In-house,High,California
+P020,A,<2,Occasionally,Private practice,High,Florida
+P021,B,11-20,Regularly,Private practice,High,Florida
+P022,A,11-20,Occasionally,Legal aid,High,Florida
+P023,A,2-5,Regularly,Private practice,High,California
+P024,C,2-5,Daily,In-house,Low,New York
+P025,C,20+,Occasionally,Private practice,Medium,Florida
+P026,B,2-5,Occasionally,Private practice,Low,Illinois
+P027,A,<2,Daily,Legal aid,Medium,Illinois
+P028,B,<2,Regularly,In-house,Low,Florida
+P029,C,11-20,Rarely,Private practice,Medium,Illinois
+P030,A,6-10,Rarely,Private practice,High,New York
+P031,A,11-20,Rarely,Government/judiciary,Low,Florida
+P032,B,11-20,Regularly,Legal aid,High,California
+P033,B,6-10,Regularly,Private practice,Medium,Illinois
+P034,B,20+,Occasionally,Legal aid,Medium,Florida
+P035,C,2-5,Rarely,Private practice,High,New York
+P036,C,6-10,Occasionally,Private practice,High,New York
+P037,A,11-20,Daily,Private practice,Medium,New York
+P038,A,6-10,Regularly,Legal aid,Medium,Texas
+P039,A,20+,Daily,Private practice,Low,California
+P040,A,6-10,Daily,Private practice,Low,Illinois
+P041,B,11-20,Rarely,Private practice,High,Illinois
+P042,B,<2,Regularly,Legal aid,Medium,California
+P043,A,2-5,Regularly,Private practice,Medium,Illinois
+P044,B,2-5,Regularly,Government/judiciary,Medium,California
+P045,C,<2,Occasionally,In-house,Low,Texas
+P046,B,2-5,Regularly,Private practice,Medium,Florida
+P047,B,<2,Rarely,Private practice,Medium,Florida
+P048,C,2-5,Occasionally,Legal aid,High,New York
+P049,B,6-10,Occasionally,Private practice,Low,Texas
+P050,C,2-5,Daily,Private practice,High,California
+P051,C,2-5,Daily,Government/judiciary,Low,New York
+P052,A,2-5,Occasionally,Legal aid,Low,Illinois
+P053,A,2-5,Regularly,Private practice,Medium,Illinois
+P054,C,20+,Rarely,In-house,Medium,California
+P055,B,6-10,Daily,In-house,Low,Illinois
+P056,C,6-10,Daily,Private practice,Low,Texas
+P057,B,2-5,Occasionally,Private practice,High,Texas
+P058,C,11-20,Regularly,Private practice,Low,New York
+P059,C,2-5,Regularly,Private practice,Medium,New York
+P060,A,2-5,Rarely,Private practice,Medium,Florida

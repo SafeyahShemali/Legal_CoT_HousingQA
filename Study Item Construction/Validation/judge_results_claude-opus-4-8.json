@@ -1,0 +1,447 @@
+[
+  {
+    "idx": "151",
+    "format": "concise",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation states the late fee is prohibited unless rent is unpaid for 'more than seven days,' but \u00a7 238-a(2) specifies five days."
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "151",
+    "format": "structured",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation repeatedly states the late fee is prohibited unless rent is unpaid for 'more than seven days,' but \u00a7 238-a(2) actually specifies 'within five days of the date it was due.'"
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "158",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "158",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "validity"
+      ],
+      "why": "The explanation infers that the mere expiration of a fixed lease term does not permit termination without cause because refusal to renew is an enumerated just cause, but this inference is flawed: subparagraph (b)(1)(E) shows that refusal to sign a renewal is itself a just cause, meaning an owner who properly requests renewal and is refused would have just cause, so the enumerated provision does not actually confirm that lease expiration alone never permits termination in the manner the application suggests."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "479",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "479",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "1001",
+    "format": "concise",
+    "planted": "validity",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: the explanation asserts that under \u00a7 83.56(2)(a) 'every such noncompliance is treated as noncurable' and the landlord 'may in all cases terminate with a 7-day notice to vacate rather than a notice to cure,' which the statute does not say\u2014\u00a7 83.56(2) creates two distinct paths, (a) for noncompliance that should not be cured and (b) for noncompliance that should be given an opportunity to cure. Validity: the inference that all \u00a7 83.52 violations are noncurable does not follow from the statutory language, which explicitly reserves curable violations (e.g., failing to keep premises clean and sanitary under \u00a7 83.52(2)) for the (2)(b) 7-day notice-to-cure procedure."
+    },
+    "match_strict": false,
+    "match_lenient": true
+  },
+  {
+    "idx": "1001",
+    "format": "structured",
+    "planted": "validity",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "The explanation asserts that 'every such noncompliance is treated as noncurable' and that the landlord 'may in all cases terminate with a 7-day notice to vacate rather than a notice to cure,' which contradicts \u00a7 83.56(2), which distinguishes between noncompliance that should not be given an opportunity to cure (subsection (a)) and noncompliance that should be given an opportunity to cure (subsection (b)). This is also an invalid inference because the statutory language explicitly provides a cure-notice track for many violations and only permits immediate 7-day termination for specific noncurable conduct like intentional damage or continued disturbances, not for all noncompliance under \u00a7\u00a7 83.52."
+    },
+    "match_strict": false,
+    "match_lenient": true
+  },
+  {
+    "idx": "1096",
+    "format": "concise",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation states that 740 ILCS 40/11 requires posting a notice to vacate within 3 days, but the statute specifies a date 5 days after the giving of the notice."
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "1096",
+    "format": "structured",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation states the notice period under 740 ILCS 40/11 is 3 days, but the statute specifies a date 5 days after the giving of the notice."
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "1449",
+    "format": "concise",
+    "planted": "completeness",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: the explanation asserts that material falsification on a rental application constitutes competent evidence that the tenant is 'objectionable' and that \u00a7 231 renders a lease void when based on a false application, but neither statute mentions rental applications, falsification, or treats these as triggering conditions (\u00a7 231 voids leases only for illegal trade/manufacture/business use). Validity: it infers from \u00a7 711(1)'s 'objectionable tenant' clause and \u00a7 231's voidness provision that application falsification supports a maintainable holdover proceeding and voids the lease, an inference the statutory language does not support since those provisions address expiration of term, contractually-defined objectionability, and illegal business use rather than misrepresentation."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "1449",
+    "format": "structured",
+    "planted": "completeness",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: The explanation misapplies \u00a7 231, which addresses leases becoming void due to use of premises for illegal trade/business, not due to a falsified rental application, and it invents a general 'statutory triggering condition' the statute does not contain for this scenario; also \u00a7 753(4)'s thirty-day cure stay applies to lease breaches generally but the explanation improperly links it to application falsification as if the statute recognizes that specific ground. Validity: The inference that a material falsification on a rental application constitutes 'competent evidence' that a tenant is 'objectionable' under \u00a7 711(1), and the inference from \u00a7 231's illegal-use voiding provision that a lease based on a false application 'loses its protective force,' do not follow from the statutory language, which addresses neither application fraud nor a general objectionability standard tied to it."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "1453",
+    "format": "concise",
+    "planted": "completeness",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: the explanation misreads \u00a7 227-d's definition, stating that a tenant subject to a protective order or criminal complaint for domestic abuse falls within the protected status, but the statute defines a 'domestic violence victim' as the victim of the offense, not the perpetrator, and the explanation itself elsewhere acknowledges the status protects victims. Validity: the explanation infers that a landlord has no statutory ground to evict a tenant for committing domestic violence, but \u00a7 711(1) (holdover after termination of an objectionable-tenant lease provision) and \u00a7 711(5) (illegal use) plus the \u00a7 744/\u00a7 227-d framework only bar eviction of the victim, so the conclusion that no ground reaches a perpetrator's domestic violence conduct does not follow from the enumerated grounds."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "1453",
+    "format": "structured",
+    "planted": "completeness",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: the explanation asserts that \u00a7 711's enumerated grounds are exhaustive for removing a tenant, but \u00a7 711 states a special proceeding 'may be maintained... upon the following grounds' and does not purport to be the only basis for termination (e.g., the objectionable-tenant provision within \u00a7 711(1) permits recovery on a lease-termination theory), and it treats the \u00a7 711 list as foreclosing eviction for endangering another tenant when no provided statute says that conduct is non-evictable. Validity: it infers that a landlord 'has no statutory ground to evict a tenant for domestic violence' from statutes (\u00a7\u00a7 227-d, 744) that only protect a domestic violence victim from eviction based on victim status and expressly preserve the landlord's rights to recover possession on any other lawful ground, which does not establish that a perpetrator of domestic violence is immune from eviction."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "1460",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation attributes the two-convictions presumptive-evidence provision to 'controlled-substance offenses,' but \u00a7 231(3) enumerates penal law sections 230.00\u2013230.40 (prostitution offenses), while the controlled-substance offenses (225-series) appear in the second sub-5, so the described convictions establishing illegal use are mischaracterized as controlled-substance activity."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "1460",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation attributes the controlled-substance conviction presumption to the wrong subdivision context: \u00a7 231(3) covers penal law offenses in the 230-series (prostitution offenses), while the drug-related presumption for 225-series offenses appears in the second subdivision 5, and the explanation conflates these by describing 'enumerated controlled-substance offenses' as presumptive evidence without noting that the 230-series offenses cited are prostitution-related rather than controlled-substance offenses."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "2293",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "2293",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "2294",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "2294",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "3474",
+    "format": "concise",
+    "planted": "validity",
+    "judged": {
+      "defects_found": [
+        "validity",
+        "completeness"
+      ],
+      "why": "Validity: the explanation infers that the tenant continues 'under the same terms and conditions' without imposing on the successor a duty to carry forward the landlord's lease obligations, but \u00a7 1305(2)'s command that the tenancy continue 'under the same terms and conditions as were in effect at the time of entry of the judgment' cannot support the conclusion that the successor need not perform the landlord's lease obligations during the occupancy period. Completeness: the explanation ignores \u00a7 1305(5), which provides that the rights conferred are 'in addition to any other rights of such tenant, under law,' a provision that bears on whether lease-based obligations survive against the successor and could change the analysis."
+    },
+    "match_strict": false,
+    "match_lenient": true
+  },
+  {
+    "idx": "3474",
+    "format": "structured",
+    "planted": "validity",
+    "judged": {
+      "defects_found": [
+        "validity"
+      ],
+      "why": "The explanation infers from \u00a7 1305's provision that the tenancy continues 'under the same terms and conditions as were in effect at the time of entry of the judgment of foreclosure and sale' that the successor is NOT bound to carry the landlord's lease obligations forward, when that language actually says the opposite\u2014that the terms and conditions (which would include the landlord's obligations) do continue during the permitted occupancy period."
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "3475",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation states that \u00a7 713(5) is expressly made 'subject to the rights and obligations set forth in' \u00a7 1305, but the statute actually cross-references 'section thirteen hundred five' \u2014 i.e., \u00a7 1305 \u2014 wait, \u00a7 713(5) references 'section thirteen hundred five of this chapter,' so the citation is in fact correct; however, the explanation misattributes by saying the ground is subject to \u00a7 1305 while \u00a7 713(5) actually says 'section thirteen hundred five,' which matches, so the grounding error is instead that \u00a7 1305(2)(b)'s lease-term protection requires the tenant to have occupied at commencement OR received a \u00a7 1303 notice, which the explanation states accurately\u2014no genuine grounding defect exists."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "3475",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "3590",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "3590",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "4533",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "4533",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "6052",
+    "format": "concise",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding"
+      ],
+      "why": "The explanation states that subdivision (a) requires 'a direction that the defendant respond either orally or in writing to the complaint,' but \u00a7 412.20(a)(3) mandates only that the defendant 'file with the court a written pleading in response,' with no mention of an oral response option."
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "6052",
+    "format": "structured",
+    "planted": "grounding",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "Grounding: the explanation repeatedly asserts that \u00a7 412.20 requires 'a direction that the defendant respond either orally or in writing,' but the statute (\u00a7 412.20(a)(3)) only requires 'a direction that the defendant file with the court a written pleading in response to the complaint,' with no mention of an oral response. Validity: the conclusion that only a direction to file a pleading is required, and its rejection of the other categories, is built on this misstated rule and thus does not follow from the actual statutory text quoted."
+    },
+    "match_strict": false,
+    "match_lenient": true
+  },
+  {
+    "idx": "6142",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "validity"
+      ],
+      "why": "The explanation's conclusion about 9-118 overreaches: while 9-118(c) states the summons shall advise of the hearing date and readiness to present evidence, 9-118 does not say this is the exclusive required content or that the summons is barred from directing an appearance/response, so inferring that the required content is 'notice of the hearing rather than a direction to file a pleading, respond orally or in writing, or file an appearance' does not follow from the statutory language."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "6142",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [
+        "grounding",
+        "validity"
+      ],
+      "why": "The explanation asserts that the eviction summons imposes 'appearance rather than a required responsive pleading' and does not require the defendant to 'file an appearance,' but Rule 101(a) expressly states the standard civil summons language (which applies to eviction summonses, only excusing the Answer/Response) tells defendants they MUST file an Appearance, so the claim that the summons does not direct filing an appearance contradicts the statutory text. The conclusion that the summons imposes no direction to 'respond in a particular manner' does not follow because Rule 101(a) requires the summons to direct filing an Appearance and Rule 181(b)(2)/101(b) require the defendant to appear on a specified day, which are directions to respond in a particular manner."
+    },
+    "match_strict": false,
+    "match_lenient": false
+  },
+  {
+    "idx": "7696",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "7696",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "8458",
+    "format": "concise",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  },
+  {
+    "idx": "8458",
+    "format": "structured",
+    "planted": "none",
+    "judged": {
+      "defects_found": [],
+      "why": ""
+    },
+    "match_strict": true,
+    "match_lenient": true
+  }
+]

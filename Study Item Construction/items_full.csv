@@ -1,0 +1,19 @@
+item_id,state,quadrant,C_AI,C_chi,defect_type,n_statutes
+151,New York,Confusing,1,0,grounding,2
+158,California,Convincing,1,1,none,2
+479,California,Convincing,1,1,none,5
+1001,Florida,Confusing,1,0,validity,4
+1096,Illinois,Confusing,1,0,grounding,8
+1449,New York,Revealing,0,0,completeness,4
+1453,New York,Confusing,1,0,completeness,9
+1460,New York,Misleading,0,1,none,4
+2293,California,Convincing,1,1,none,5
+2294,California,Convincing,1,1,none,3
+3474,New York,Revealing,0,0,validity,4
+3475,New York,Convincing,1,1,none,4
+3590,Florida,Convincing,1,1,none,1
+4533,Texas,Convincing,1,1,none,4
+6052,California,Revealing,0,0,grounding,2
+6142,Illinois,Misleading,0,1,none,4
+7696,Florida,Misleading,0,1,none,3
+8458,Texas,Convincing,1,1,none,1
